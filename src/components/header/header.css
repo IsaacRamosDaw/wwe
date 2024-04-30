@@ -23,12 +23,28 @@
 
     color: rgb(199, 199, 199);
     font-weight: bolder;
+
+    li:hover{
+        color: rgb(255, 255, 255);
+      }
+    }
+  }
+
+  
+.hIconNetWork{
+  background-color: blue;
+  display: flex;
+  align-items: center;
+
+  img{
+    height: 6vh;
   }
 }
 
 
 
-@media (max-width: 600px) {
+
+@media (max-width: 800px) {
   .hTextContainer{
     ul{
       display: none;

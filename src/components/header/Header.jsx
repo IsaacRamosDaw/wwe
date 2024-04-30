@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css'
+
 function Header({T1,T2,T3,T4,T5}) {
   return (
     <header id='header'>
@@ -15,7 +16,12 @@ function Header({T1,T2,T3,T4,T5}) {
           <li>{T5}</li>
         </ul>
       </div>
-      <div></div>
+      <div className='hNetWork'>
+        <div className='hIconNetWork'>
+          <img src="/images/header/wweMiniLogo.svg" alt="" />
+          <p>NETWORK</p>
+        </div>
+      </div>
     </header>
   )
 }

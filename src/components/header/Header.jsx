@@ -1,9 +1,21 @@
 import React from 'react'
-
-function Header() {
+import './header.css'
+function Header({T1,T2,T3,T4,T5}) {
   return (
-    <header>
-      <h1>HoLA</h1>
+    <header id='header'>
+      <div className='hlogoContainer'>
+        <img src="/images/header/wweLogo.png" alt=""/>
+      </div>
+      <div className='hTextContainer'>
+        <ul>
+          <li>{T1}</li>
+          <li>{T2}</li>
+          <li>{T3}</li>
+          <li>{T4}</li>
+          <li>{T5}</li>
+        </ul>
+      </div>
+      <div></div>
     </header>
   )
 }

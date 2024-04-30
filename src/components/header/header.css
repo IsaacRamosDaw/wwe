@@ -1,0 +1,37 @@
+#header{
+  background-color: rgb(59, 59, 59);
+  display: flex;
+}
+  
+.hlogoContainer{
+  img{
+      height: 8vh;
+  }
+}
+
+.hTextContainer{
+  background-color: red;
+  display: flex;
+  align-items: center;
+
+  ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 4vw;
+    margin: 0;
+
+    color: rgb(199, 199, 199);
+    font-weight: bolder;
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  .hTextContainer{
+    ul{
+      display: none;
+    }
+  }
+}

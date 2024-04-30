@@ -4,7 +4,9 @@ function Home() {
 
   return (
     <>
-      <Header/>
+      <Header 
+      T1="WWE NETWORK" T2="SHOWS" T3="SUPERSTARTS" T4="TICKETS" T5="SHOP"
+      />
     </>
   )
 }

@@ -1,53 +1,106 @@
 #header{
-  background-color: rgb(59, 59, 59);
+  background-color: rgb(33, 32, 32);
   display: flex;
+  justify-content: space-between;
+}
+
+.hMenuContainer{
+  display: none;
 }
   
-.hlogoContainer{
+.hLogoContainer{
+  display: flex;
+  gap: 2vw;
+  margin: 10px;
   img{
       height: 8vh;
   }
 }
 
 .hTextContainer{
-  background-color: red;
   display: flex;
   align-items: center;
+  
 
   ul{
     display: flex;
     list-style: none;
     padding: 0;
-    gap: 4vw;
+    gap: 2vw;
     margin: 0;
+    font-size: 1.3rem;
 
-    color: rgb(199, 199, 199);
+    color: rgb(151, 151, 151);
     font-weight: bolder;
 
-    li:hover{
-        color: rgb(255, 255, 255);
-      }
+    a{
+      color: rgb(151, 151, 151);
+      text-decoration: none;
+      
+    }
+
+    a:hover{
+      color: rgb(255, 255, 255);
     }
   }
+}
 
-  
-.hIconNetWork{
-  background-color: blue;
+
+.hNetWork{
   display: flex;
   align-items: center;
+  
+  .hIconNetWork{
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 30px;
+    padding: 7px;
+    
 
-  img{
-    height: 6vh;
+    img{
+      height: 4vh;
+    }   
   }
+
+  .separator{
+    background-color: rgb(79, 79, 79);
+    height: 60px;
+    border-radius: 50%;
+    width: 2px;
+    margin: 0 1vw;
+  }
+
+  ul{
+    display: flex;
+    gap: 2.5vw;
+    padding: 0;
+    list-style: none;
+    font-size: 1.8rem;
+    color: white;
+    margin: 20px;
+  }
+}
+
+.hIconNetWork:hover{
+  background-color: rgba(68, 68, 68, 0.177);
 }
 
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 1040px) {
   .hTextContainer{
     ul{
       display: none;
     }
+  }
+
+  .hMenuContainer{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 4rem;
+    margin: 10px;
   }
 }

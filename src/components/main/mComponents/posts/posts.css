@@ -1,0 +1,63 @@
+section.sPosts{
+  width: 80dvw;
+  margin: 0 auto;
+  padding-top: 3dvh;
+
+  .postContainer{
+    height: 40dvH;
+    display: flex;
+    justify-content: left;
+    border-top: 1px solid rgb(43, 43, 43);
+    padding-top: 3dvh;
+    background-color: rgb(38, 2, 2);
+
+    /* iframe{
+      margin: 15px;
+      height: 100px;
+      width: 140px;
+      border: 2px solid black;
+      box-shadow: 1px 11px 28px 16px rgba(0,0,0,0.75);
+      -webkit-box-shadow: 1px 11px 28px 16px rgba(0,0,0,0.75);
+      -moz-box-shadow: 1px 11px 28px 16px rgba(0,0,0,0.75);
+    } */
+
+    .info{
+      display: flex;
+      flex-direction: column;
+
+      .pBrand{
+        background-color: blue;
+        margin-right: 3dvw;
+        padding: 5px 15px;
+        font-size: 2rem;
+        margin: 10px;
+      }
+  
+      .pSocialIcons{
+        display: flex;
+        list-style: none;
+        padding: 0;
+
+        li{
+          margin: 10px;
+          
+          a{
+            text-decoration: none;
+            color: white;
+            :hover{
+              cursor: pointer;
+              color: blue;
+            }
+          }
+        }
+          
+      }
+    }
+
+    .pVideo{
+      background-color: cadetblue;
+      min-width: 40px;
+      min-height: 40px;
+    }
+  }
+}

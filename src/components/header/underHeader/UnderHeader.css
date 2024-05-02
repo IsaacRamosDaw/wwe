@@ -1,14 +1,14 @@
 .underHeader{
-  height: 20vh;
+  min-height: 20vh;
   background-color: rgb(26, 26, 26);
   box-shadow: 1px 25px 40px 3px rgba(0,0,0,0.53);
   -webkit-box-shadow: 1px 25px 40px 3px rgba(0,0,0,0.53);
   -moz-box-shadow: 1px 25px 40px 3px rgba(0,0,0,0.53);
   display: flex;
+  padding: 120px 10px 10px 40px;
 
   .uHeaderTitle{
     background-color: red;
-    margin-left: 5vw;
 
     h2{
       color: white;
@@ -16,9 +16,6 @@
   }
 
   .uHeaderImgContainer{
-    height: 100%;
-    width: 100%;
-    padding-left: 1vw;
     display: flex;
     gap: 2vw;
     align-items: center;
@@ -26,14 +23,17 @@
     overflow: hidden;
 
     .uHeaderContainers{
-      min-width: 250px;
-      height: 150px;
+      min-width: 213px;
+      height: 120px;
       padding: 0;
       background-image: url('/images/header/uHeader/underHeader_1.png');
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
+      background-position: center;
       color: white;
       background-color: rgb(99, 92, 92);
+
+      
 
       p{
         background-color: rgba(0, 0, 0, 0.845);
@@ -42,5 +42,7 @@
 
       }
     }
+
+
   }
 }

@@ -16,7 +16,7 @@ function Header({T1,T2,T3,T4,T5}) {
         </div>
         <div className='hLogoContainer'>
           <img src="/images/header/wweLogo.png" alt=""/>
-          <div className='hTextContainer'>
+          <nav className='hTextContainer'>
             <ul>
               <li><a href="*">{T1}</a></li>
               <li><a href="*">{T2}</a></li>
@@ -24,7 +24,7 @@ function Header({T1,T2,T3,T4,T5}) {
               <li><a href="*">{T4}</a></li>
               <li><a href="*">{T5}</a></li>
             </ul>
-          </div>
+          </nav>
         </div>
 
         <div className='hNetWork'>
@@ -35,11 +35,10 @@ function Header({T1,T2,T3,T4,T5}) {
             <div className='separator'> </div>
             <ul>
               <li><FontAwesomeIcon icon={faUser} /></li>
-              <li><FontAwesomeIcon icon={faMagnifyingGlass} /></li>
             </ul>
         </div>
       </header>
-      <UnderHeader title="Latest Matchest" numContainers={5}/>
+      <UnderHeader title="Latest Matchest" numContainers={6}/>
     </>
   )
 }

@@ -15,13 +15,13 @@ function Header({T1,T2,T3,T4,T5}) {
           <FontAwesomeIcon icon={faBars}/>
         </div>
         <div className='hLogoContainer'>
-          <img src="/images/header/wweLogo.png" alt=""/>
+          <a href="/home"><img src="/images/header/wweLogo.png" alt=""/></a>
           <nav className='hTextContainer'>
             <ul>
               <li><a href="*">{T1}</a></li>
               <li><a href="*">{T2}</a></li>
               <li><a href="*">{T3}</a></li>
-              <li><a href="*">{T4}</a></li>
+              <li><a href="/tickets">{T4}</a></li>
               <li><a href="*">{T5}</a></li>
             </ul>
           </nav>

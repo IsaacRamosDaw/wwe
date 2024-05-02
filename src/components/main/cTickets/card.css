@@ -1,0 +1,73 @@
+.t-main{
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px ;
+}
+
+.t-card{
+  background-color: yellowgreen;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.t-card-info{
+  height: 10vh;
+  background-color: blueviolet;
+  width: 55vw;
+  display: flex;
+  align-items: center;
+
+  .t-card-info-date{
+    width: 15vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    font-size: 2rem;
+    border-radius: 0 10px 10px 0; /* Radios de las esquinas */
+    
+  }
+
+  .t-card-info-logo{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .logoTitle{
+      height:5vh;
+    }
+
+  }
+}
+
+.t-card-day{
+  height: 10vh;
+  /* width: 30%; */
+  background-color: magenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.t-card-link{
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 1025px) {
+
+}
+
+@media (min-width: 750px) and (max-width: 1024px) {
+  h4{
+    color: red;
+  }
+}

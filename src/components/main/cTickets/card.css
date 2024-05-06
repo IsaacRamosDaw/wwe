@@ -1,23 +1,24 @@
 .t-main{
-  background-color: blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px ;
+  padding: 20vh 15vw;
+  background: radial-gradient(circle, rgb(33, 33, 33) 0%, rgb(74, 74, 74) 50%, rgb(28, 28, 28) 100%);
+}
+
+summary{
+  list-style: none;
 }
 
 .t-card{
-  background-color: yellowgreen;
-  padding: 20px;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+
 }
 
 .t-card-info{
   height: 10vh;
+  width: 100%;
   background-color: blueviolet;
-  width: 55vw;
   display: flex;
   align-items: center;
 
@@ -60,6 +61,21 @@
   display: flex;
   text-decoration: none;
   color: white;
+}
+
+/* Estilos del summary */
+
+.t-card-new-container{
+  padding: 10px;
+  background-color: violet;
+  display: flex;
+  justify-content: center;
+
+  .t-card-show{
+    height: 13vh;
+    width: 80%;
+    background-color: blue;
+  }
 }
 
 @media (min-width: 1025px) {

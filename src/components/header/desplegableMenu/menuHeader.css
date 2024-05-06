@@ -1,0 +1,31 @@
+.h-desplegable-menu-container{
+  width: 70vw;
+  top: 11vh;
+  background-color: rgb(241, 238, 233);
+  position: fixed;
+  bottom: 0;
+  box-shadow: -14px 12px 27px 7px rgba(0,0,0,0.54) inset;
+-webkit-box-shadow: -14px 12px 27px 7px rgba(0,0,0,0.54) inset;
+-moz-box-shadow: -14px 12px 27px 7px rgba(0,0,0,0.54) inset;
+padding: 20px;
+/* DISPLAAY MENU */
+display: none;
+}
+
+.menu-items{
+  background-color: rgb(5, 67, 74);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .items-list{
+    list-style: none;
+    background-color: red;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2.5rem;
+    gap: 10vh;
+  }
+}

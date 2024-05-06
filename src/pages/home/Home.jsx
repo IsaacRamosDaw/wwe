@@ -6,10 +6,9 @@ function Home() {
 
   return (
     <>
-      <Header 
-      T1="WWE NETWORK" T2="SHOWS" T3="SUPERSTARTS" T4="TICKETS" T5="SHOP"/>
-      <LandingPage/>
-      <Footer numContainers={3}/>
+      <Header T1="SUPERSTARTS" T2="SHOP" T3="TICKETS"/>
+        <LandingPage/>
+      <Footer/>
     </>
   )
 }

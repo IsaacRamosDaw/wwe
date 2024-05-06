@@ -1,0 +1,77 @@
+.account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://mms.businesswire.com/media/20151104005348/en/494615/5/Wm31_Arena.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20vh 10vw 0;
+
+}
+
+
+.account-cont{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(45, 0, 0);
+  border: 2px solid white;
+  background: transparent;
+  backdrop-filter: blur(30px);
+  border-radius: 20px;
+}
+
+.account-inputs {
+  height: 100%;
+  padding: 20px;
+  
+}
+
+.account-right {
+  height: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  color: white; /* Color de texto blanco */
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  .account-margin-space{
+    margin-bottom: 5vh;
+  }
+}
+
+label {
+  margin-bottom: 15px; /* Espacio inferior entre labels */
+  color: white; /* Color de texto blanco */
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkred;
+}

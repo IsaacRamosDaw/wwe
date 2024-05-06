@@ -15,7 +15,6 @@ function UnderHeader({title, numContainers}) {
           <div className='uHeaderContainers' key={index}>
             <p>10:00</p>
           </div>
-          
         ))}
       </div>
     </div>

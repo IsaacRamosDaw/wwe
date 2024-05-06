@@ -1,0 +1,48 @@
+
+.cookies {
+  padding: 20vh 8vw 10vh;
+  background-color: rgb(58, 58, 58);
+
+}
+
+
+.cookies-title {
+  font-size: 1.5rem; 
+  font-weight: bold;
+  padding: 15px;
+  font-family: "Changa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  display: inline;
+  -webkit-box-shadow: 18px 13px 38px 16px rgba(0,0,0,0.29);
+  -moz-box-shadow: 18px 13px 38px 16px rgba(0,0,0,0.29);
+  box-shadow: 18px 13px 38px 16px rgba(0,0,0,0.29);
+  background-color: red;
+  color: white;
+}
+
+
+.cookies-text {
+  font-size: 1.4rem; 
+  line-height: 1.5;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  padding-right: 20vw;
+  margin: 0;
+  margin-top: 5vh;
+}
+
+@media (min-width: 700px) {
+  h2.cookies-title{
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  h2.cookies-title{
+    font-size: 4.5rem;
+  }
+}

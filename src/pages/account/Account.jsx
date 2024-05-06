@@ -1,16 +1,16 @@
 import React from 'react'
 import Header from '../../components/header/Header'
 import Footer from '../../components/footer/Footer'
-import Card from '../../components/main/cTickets/Cards'
+import Login from '../../components/main/cAccount/Login'
 
-function Tickets() {
+function Account() {
   return (
     <>
       <Header T1='SUPERSTARS' T2='SHOP' T3='TICKETS'/>
-        <Card/>
+        <Login/>
       <Footer/>
     </>
   )
 }
 
-export default Tickets
+export default Account

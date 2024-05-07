@@ -1,77 +1,115 @@
 .account {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-image: url('https://mms.businesswire.com/media/20151104005348/en/494615/5/Wm31_Arena.jpg');
+  background-image: url('/images/main/account/AccountBackground.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20vh 10vw 0;
-
+  background-color: rgba(0, 0, 0, 0.596);
+  padding: 16vh 6vw;
 }
-
 
 .account-cont{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 10px;
   background-color: rgb(45, 0, 0);
-  border: 2px solid white;
   background: transparent;
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(40px);
   border-radius: 20px;
 }
 
-.account-inputs {
-  height: 100%;
-  padding: 20px;
-  
-}
-
-.account-right {
-  height: 100%;
-  padding: 20px;
-  border-radius: 5px;
-  color: white; /* Color de texto blanco */
-}
-
-
-
-form {
+.account-qr{
   display: flex;
-  flex-direction: column;
-
-  .account-margin-space{
-    margin-bottom: 5vh;
+  justify-content: center;
+  img{
+    height: 20vh;
+    max-width: 40vw;
+    margin: 10px;
   }
 }
 
+.account-right{
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img{
+    height: 50vh;
+    border-radius: 10px;
+  }
+}
+
+.account-icon-g{
+  color: rgb(255, 218, 150);
+}
+.account-icon-f{
+  color: blue;
+}
+
+
+
 label {
-  margin-bottom: 15px; /* Espacio inferior entre labels */
-  color: white; /* Color de texto blanco */
+  color: rgb(54, 54, 54); 
+  font-size: 1.9rem;
+  padding: 10px;
 }
 
 input {
   display: block;
-  width: 100%;
-  margin-top: 5px;
+  width: 90%;
+  margin: 5px;
   padding: 10px;
-  border: none;
-  border-radius: 5px;
   outline: none;
+  border: 2px solid red;
+
 }
 
 button {
-  width: 100%;
-  padding: 10px;
+  width: 20%;
+  padding: 5px;
+  margin: 5px;
   background-color: red;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.account-login{
+  margin-bottom: 30px;
+  width: 95%;
 }
 
 button:hover {
   background-color: darkred;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  .login-with{
+    display: flex;
+    justify-content: space-around;
+    button{
+      width: fit-content;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (min-width: 750px) {
+  .account-cont{
+    flex-direction: row;
+    padding: 30px;
+  }
+
+  .account-inputs{
+    margin: 0;
+    padding: 0;
+  }
+
 }

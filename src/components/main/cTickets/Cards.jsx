@@ -6,33 +6,35 @@ function Card() {
   return (
     <>
       <main className="t-main">
-          <details>
-            <summary>
-        <div className="t-card">
-              <div className="t-card-info">
-                <div className="t-card-info-date">
-                  <span className="t-card-info-date-text">
-                    {ticketsCard[0].date}
-                  </span>
-                </div>
-                <div className="t-card-info-logo">
-                  <img className="logoTitle" src={ticketsCard[0].logo} alt="" />
-                </div>
-              </div>
-              <div className="t-card-day">
-                <span>
-                  <h4 className="">{ticketsCard[0].day}</h4>
+        <details>
+
+          <summary>
+
+            <div className="t-card-info">
+              <div className="t-card-info-date">
+                <span className="t-card-info-date-text">
+                  {ticketsCard[0].date}
                 </span>
               </div>
-        </div>
-            </summary>
-            <div className="t-card-new-container">
-              <div className="t-card-show">
-                <div className="t-card-show-info"></div>
-                <div className="t-card-show-img"></div>
+
+              <div className="t-card-info-mainEvent">
+                <p>BROCK LESNAR <br /> VS <br/>JOHN CENA</p>
+              </div>
+
+              <div className="t-card-info-brand">
+                <p>Raw</p>
               </div>
             </div>
-          </details>
+
+          </summary>
+
+          <div class="t-card-new-container">
+            <div class="t-card-show">
+              <div class="t-card-show-info"></div>
+            </div>
+          </div>
+
+        </details>
       </main>
     </>
   );

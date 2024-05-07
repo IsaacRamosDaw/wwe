@@ -22,11 +22,13 @@ function Footer() {
 
     return (
         <footer>
-            {block('CORPORATE', 'Home', '/home', 'Careers', '/home', 'Impact', '/home', 'Contact', '/home')}
+            {block('CORPORATE', 'Home', '/home', 'Careers', '/superstars', 'Impact', '/home', 'Contact', '/contact')}
             {block('SOCIAL', 'YouTube', 'https://www.youtube.com/@WWE', 'Twitter', 'https://twitter.com/WWE?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor', 'Github', 'https://github.com/IsaacRamosDaw/wwe', 'Pinterest', 'https://www.pinterest.es/morellpardo/wwe/')}
-            {block('CONTENT', 'WWE News', 'WWE videos', 'WWE Photos', 'WWE Worldwide', 'Priority Pass')}
             {block('INFORMATION', 'Cookie policy', '/cookies', 'Privacy policy', '/privacy', 'Security', '/security')}
-            <div className='fLogo'><img src="/images/header/wweLogo.png" alt="" /></div>
+            <div className='fLogo'>
+              <img src="/images/header/wweLogo.png" alt="" />
+              <p>@WWENETWORK all right reserved</p>
+            </div>
         </footer>
     )
 }

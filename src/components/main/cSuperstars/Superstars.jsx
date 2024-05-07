@@ -5,17 +5,41 @@ const Superstars = ({ imageUrl, name, surname, origin, height, fights, champions
   return (
     <main className="wrestler-info-container">
       <div className="wrestler-info-content">
+        
         <div className="wrestler-image">
-        <img src='https://media.gettyimages.com/id/142809003/es/foto/miami-gardens-fl-dwayne-the-rock-johnson-looks-on-during-his-match-against-john-cena-during.jpg?s=612x612&w=0&k=20&c=TQXOHAWfIboQlAuq8BxZwIZpyNtQO9X6V2iXAbVw6sU=' alt={`${name}`} />
+          <div className='wrestler-image-name'><h3>The Rock</h3></div>
+          <img src='https://media.gettyimages.com/id/142809003/es/foto/miami-gardens-fl-dwayne-the-rock-johnson-looks-on-during-his-match-against-john-cena-during.jpg?s=612x612&w=0&k=20&c=TQXOHAWfIboQlAuq8BxZwIZpyNtQO9X6V2iXAbVw6sU=' alt={`${name}`} />
         </div>
+
         <div className="wrestler-details">
-          <h2>The Rock Samoan</h2>
-          <h2>Origin</h2><p>{origin}</p>
-          <h2>Height</h2><p>{height}</p>
-          <h2>Fights</h2><p>{fights}</p>
-          <h2>Championships</h2><p>{championships}</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deserunt debitis doloremque. Voluptas, aut! Quisquam cupiditate pariatur sequi eaque suscipit a accusamus consequatur ex, cumque laborum. Possimus itaque delectus ea suscipit error sint porro saepe enim optio, cum sunt unde consectetur consequuntur neque assumenda architecto libero, cumque corporis nihil asperiores doloremque reprehenderit quasi aliquam molestias. Veritatis reiciendis iusto mollitia quibusdam! Ipsum sunt repudiandae harum hic beatae velit vero facilis. Voluptate omnis earum quidem ducimus corporis consequatur incidunt veritatis, deserunt minima iusto quasi explicabo nam laboriosam dolorem aperiam a assumenda repudiandae inventore distinctio nemo dolores illum. Totam animi sapiente accusantium. Accusantium, ratione tempora voluptatem ipsa deleniti possimus saepe optio blanditiis. Enim labore architecto eligendi ut, recusandae quia animi est, minus necessitatibus doloribus repellat? Architecto sit odit at quo vero consequatur autem necessitatibus alias vel quam voluptas iste, odio molestiae dignissimos aperiam aut ipsa atque laborum, ab obcaecati eaque. Commodi non quis deleniti, asperiores quia obcaecati. Ullam nulla maxime, saepe obcaecati, a non in nisi impedit est corporis molestias vitae architecto tenetur sequi dolorem voluptatibus quaerat veritatis voluptas. Soluta cupiditate velit labore consectetur, officia voluptatem facilis animi, dolores neque eum cumque est aperiam aspernatur laborum! Labore cupiditate accusamus aperiam minus autem architecto!</p>
+          <div className="wrestler-details-h-p-container">
+            <div className='wrestler-details-h'>
+              <h4>Origin</h4>
+              <h4>Height</h4>
+              <h4>Fights</h4>
+              <h4>Championships</h4>
+            </div>
+            <div className="wrestler-details-p">
+              <p>EEUU</p>
+              <p>1.98 CM</p>
+              <p>198</p>
+              <p>32</p>
+            </div>
+          </div>
+
+          <div className="wrestler-details-text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et laudantium, ducimus inventore cupiditate impedit optio omnis aut sequi quas molestiae
+              fugit quia blanditiis natus eaque. Dignissimos animi tenetur earum explicabo perferendis deleniti corporis aspernatur aperiam quod reiciendis! Excepturi
+              assumenda minus aut quibusdam error vitae deleniti. Dolores sapiente modi accusantium ad iusto tempore sit rerum in voluptatem quia qui amet quaerat ea necessitatibus, oo. Distinctio voluptate doloribus quos ut fuga dolorum dolore nam at sequi beatae aliquam minima quibusdam
+              error, maiores ex eveniet libero perspiciatis et, accusantium corporis architecto quidem. Ullam quis obcaecati eius et perferendis hic quae voluptate, nostrum, dolorum doloremque corrupti
+              repudiandae distinctio dicta in earum aliquid, sunt accusantium excepturi. Totam cumque deserunt quasi vero cum voluptate non provident consectetur nam maiores, reprehenderit accusamus pariatur quis a aut. Consectetur, beatae deserunt maxime eveniet asperiores eaque minus.
+            </p>
+
+            <small>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores incidunt deleniti commodi culpa odio tempore id dolorem repellat laboriosam numquam!"</small>
+          </div>
         </div>
+
       </div>
     </main>
   );

@@ -1,19 +1,21 @@
 import React from 'react'
 import './header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook,faGithub, faTwitch, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons'
-import { faUser, faMagnifyingGlass, faBars } from '@fortawesome/free-solid-svg-icons'
-import UnderHeader from './underHeader/UnderHeader'
+import { faUser,  faBars } from '@fortawesome/free-solid-svg-icons'
 import MenuHeader from './desplegableMenu/MenuHeader'
+import { useState } from 'react'
 
 function Header({T1,T2,T3,T4}){
+  const [menu, setMenu] = useState(false);
+
+
   return (
     <>
       <header id='header'>
         <div className='hMenuContainer'>
-          <FontAwesomeIcon icon={faBars}/>
+        <FontAwesomeIcon icon={faBars} onClick={() => setMenu(menu ? false : true)}/>
         </div>
-        <MenuHeader/>
+        <MenuHeader condition={menu}/>
         <div className='hLogoContainer'>
           <a href="/home"><img src="/images/header/wweLogo.png" alt=""/></a>
           <nav className='hTextContainer'>

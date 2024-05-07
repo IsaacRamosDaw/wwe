@@ -6,6 +6,7 @@ footer{
   gap: 35px;
   padding: 20px;
   justify-content: center;
+  min-height: 30vh;
 
   .fBlock{
     width: 300px;
@@ -29,10 +30,8 @@ footer{
     ul{
       list-style: none;
       padding: 0px;
-
       li{
         padding: 5px;
-
         a{
           text-decoration: none;
           color: rgb(182, 182, 182);
@@ -63,14 +62,19 @@ footer{
   }
 
   .fLogo{
-    height: 22vh;
     min-width: 215px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     img{
-      height: 19vh;
+      height: 24vh;
+      margin-top: 1vh;
+    }
+    p{
+      margin: 0;
     }
   }
 }

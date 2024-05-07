@@ -1,16 +1,14 @@
 import React from 'react'
 import './menuHeader.css'
-function MenuHeader() {
+function MenuHeader({condition}){
   return (
-    <div className='h-desplegable-menu-container hiddenMenu'>
+    <div className={`h-desplegable-menu-container ${condition ? "active" : ""}`}>
       <div className="menu-items">
         <ul className='items-list'>
-          <li className='list-item'><a href="">Top</a></li>
-          <li className='list-item'><a href="">Superstars</a></li>
-          <li className='list-item'><a href="">History</a></li>
-          <li className='list-item'><a href="">Top</a></li>
-          <li className='list-item'><a href="">Bottom</a></li>
-          <li className='list-item closeMenu'>Close Me</li>
+          <li className='list-item'><a href="/home">HOME</a></li>
+          <li className='list-item'><a href="/fighters">SUPERSTAR</a></li>
+          <li className='list-item'><a href="/shop">SHOP</a></li>
+          <li className='list-item'><a href="/tickets">TICKETS</a></li>
         </ul>
       </div>
     </div>

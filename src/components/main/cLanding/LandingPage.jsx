@@ -6,7 +6,6 @@ function LandingPage() {
   return (
     <>
       <Banner/>
-      <Posts brand='RAW' titlePost='Raybeck gets his revenge on Saturday night Rae'/>
     </>
   )
 }

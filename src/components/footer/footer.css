@@ -1,81 +1,74 @@
-footer{
+footer {
   color: whitesmoke;
   background-color: rgb(22, 22, 22);
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
   gap: 35px;
-  padding: 20px;
   justify-content: center;
-  min-height: 30vh;
+  background: rgb(51,51,51);
+  background: linear-gradient(0deg, rgba(51,51,51,1) 68%, rgba(0,0,0,1) 100%); 
 
-  .fBlock{
+  .fBlock {
     width: 300px;
     text-align: center;
     margin: 3vh 0 3vh;
 
-    h3{
+    h3 {
       margin: 0;
 
-      a{
+      a {
         text-decoration: none;
         color: rgb(204, 204, 204);
         position: relative;
       }
 
-      a:hover{
+      a:hover {
         color: rgb(229, 67, 67);
       }
     }
 
-    ul{
+    ul {
       list-style: none;
       padding: 0px;
-      li{
+      li {
         padding: 5px;
-        a{
-          text-decoration: none;
+        a {
+          /* text-decoration: none; */
           color: rgb(182, 182, 182);
           position: relative;
         }
       }
 
-
-      a::after{
+      a::after {
         width: 0;
-        height: 1px;
-        content: '';
+        height: 2px;
+        content: "";
         display: block;
         position: absolute;
         bottom: 0;
         left: 0;
         transform: 2s;
-        transition: width 0.3s ease-in-out; 
+        transition: width 0.3s ease-in-out;
         background: red;
       }
 
       a:hover::after {
-        width: 100%; 
+        width: 100%;
+      }
     }
-    }
-
-
   }
 
-  .fLogo{
-    min-width: 215px;
-    background-repeat: no-repeat;
-    background-size: cover;
+  .fLogo {
+    padding: 20px 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    img{
-      height: 24vh;
-      margin-top: 1vh;
+    img {
+      height: 150px;
+      width: 180px;
     }
-    p{
+    p {
       margin: 0;
     }
   }
 }
-

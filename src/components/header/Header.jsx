@@ -2,8 +2,8 @@ import React from 'react'
 import './header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser,  faBars } from '@fortawesome/free-solid-svg-icons'
-import MenuHeader from './desplegableMenu/MenuHeader'
 import { useState } from 'react'
+import MenuHeader from './desplegableMenu/MenuHeader'
 
 function Header({T1,T2,T3,T4}){
   const [menu, setMenu] = useState(false);
@@ -27,13 +27,17 @@ function Header({T1,T2,T3,T4}){
           </nav>
         </div>
         <div className='hNetWork'>
-          <div className='hIconNetWork'>
-              <a href="https://www.wwe.com/"><img src="/images/header/wweMiniLogo.svg" alt="" />
-              <p>NETWORK</p></a>
-          </div>
+          <a href="https://www.wwe.com/">
+            <div className='hIconNetWork'>
+                <a>
+                  <img src="/images/header/wweMiniLogo.svg" alt="" />
+                </a>
+                <p>NETWORK</p>
+            </div>
+          </a>
             <div className='separator'> </div>
             <ul>
-              <a href="/account"><li><FontAwesomeIcon icon={faUser}/></li></a>
+            <li><a className='header-icons' href="/account"><FontAwesomeIcon icon={faUser}/></a></li>
             </ul>
         </div>
       </header>

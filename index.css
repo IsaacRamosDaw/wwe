@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Amethysta&family=Jockey+One&family=Quando&family=Spectral+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Teko:wght@300..700&display=swap');
+
+:root{
+  --letra1 : "Oswald", sans-serif;
+  --letra2 : "Spectral SC", serif;
+  --letra3 : "Jockey One", sans-serif;
+  --letra4 : "Amethysta", serif;
+  --letra5 : "Quando", serif;
+  --letra6 : "Homenaje", sans-serif;
+  --letra7 : "Teko", sans-serif;
+  --letra8 : "Anton", sans-serif
+  --letra9 : "Bebas Neue", sans-serif;
+}
+
 body{
   margin: 0;
   padding: 0;
@@ -9,15 +24,25 @@ body{
 
 a{
   text-decoration: none;
-  color: white;
-
-  :active{
-    color: white;
-  }
 }
 
 small{
-  color: grey;
+  color: rgb(158, 158, 158);
 }
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
+
+
+
+
 
 

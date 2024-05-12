@@ -10,19 +10,13 @@ function Login() {
         <div className="account-inputs">
 
           <form>
-            <label for="username"> User
+            <label for="username"><p>User</p> 
               <input type="text" id="username" name="username" placeholder="User Name" required />
             </label>
 
-            <label for="password"> Password
-              <input type="password" id="password" dername="password" placehol="Password" required />
+            <label for="password"><p>Password</p>
+              <input type="password" id="password" name="password" placeholder="Password" required />
             </label>
-
-            <a href="/home">
-              <button className="account-login">
-                Login
-              </button>
-            </a>
 
             <div className="login-with">
               <a href="/home">
@@ -36,10 +30,6 @@ function Login() {
                   Login with Facebook <FontAwesomeIcon className="account-icon-f" icon={faFacebook}/>
                 </button>
               </a>
-            </div>
-
-            <div className="account-qr">
-              <img src="/images/main/account/qr.png" alt=""/>
             </div>
           </form>
 

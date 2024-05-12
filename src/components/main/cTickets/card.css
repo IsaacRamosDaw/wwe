@@ -1,41 +1,67 @@
+
+
 .t-main{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20vh 8vw;
-  background: radial-gradient(circle, rgb(33, 33, 33) 0%, rgb(74, 74, 74) 50%, rgb(28, 28, 28) 100%);
-  
+  padding: 20vh 1vw;
+  background: radial-gradient(circle, rgb(0, 1, 3) 0%, rgb(0, 15, 70) 50%, rgba(19, 0, 0, 0.87) 100%);
+}
+details{
+  summary{
+    list-style: none;
+  }
+
 }
 
-summary{
-  list-style: none;
+details[open] summary ~ *{
+  animation: sweep 1s ease-in-out;
+}
+
+@keyframes sweep {
+  0%    {opacity: 0; margin-top: -10px}
+  100%  {opacity: 1; margin-top: 0px}
 }
 
 .t-card-info{
   height: 10vh;
   width: 100%;
-  background-color: blueviolet;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   cursor: pointer;
   text-align: center;
+  justify-content: space-between;
+  color: white;
+  background-image: url(../../../../public/images/main/ticketsImg/texture7.png);
+  border-top-left-radius: 10px;
+  background-size: 100vw;
+  /* background-attachment: fixed; */
+  box-shadow: 0 20px 60px black;
+
+  
+
 
   .t-card-info-date{
     height: 100%;
-    padding: 5px;
+    margin-left: 5px;
+    padding: 2px 5px;
+    border-left: 10px double black  ;
+    border-right: 10px double black  ;
+    background-color: rgb(74, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2rem;
-    background-color: red;
     color: white;
   }
 
   .t-card-info-mainEvent{
-    font-size: 0.7rem;
+    font-size: 1.3rem;
     display: flex;
     justify-content: center;
+    gap: 5px;
+    padding: 0 2px;
+    font-family: "Spectral SC", serif;
   }
 
   .t-card-info-brand{
@@ -45,7 +71,8 @@ summary{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    border-left: 5px black double;
+    background-color: rgb(74, 0, 0);
     color: white;
   }
 
@@ -61,47 +88,144 @@ summary{
       height:5vh;
     }
   }
+
+
 }
 
+.t-card-info:active{
+  transform: translateY(-5px);
+}
 
-/* .t-card-new-container{
-  padding: 10px;
-  display: flex;
-  justify-content: center;
+.t-card-info:hover{
+  color: antiquewhite ;
+}
 
-  .t-card-show{
-    height: 13vh;
-    width: 100%;
-    background-color: blue;
-  }
-} */
-
-/* Estilo general */
 .t-card-new-container {
   padding: 10px;
 }
 
-/* Estilo del contenedor del evento */
+
 .t-card-show {
   background-color: #333;
-  padding: 10px;
   border-radius: 8px;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(../../../../public/images/main/ticketsImg/texture12.png);
+  background-position: bottom;
+  background-size: cover;
+  border: 2px solid rgba(0, 0, 97, 0.379);
+  box-shadow:  0 20px 30px black;
+  h4{
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+  /* lado izquierdo */
+
+  .t-card-show-fights{
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    width: 55vw;
+    font-family: var(--letra2);
+    color: bisque;
+
+    ul{
+        padding: 1vh 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+
+        p{
+          margin: 4px 0;
+          font-family: var(--letra5);
+          font-size: 1.2rem;
+        }
+
+        span{
+          font-size: 0.9rem;
+        }
+    }
+  }
+
+  /* lado derecho */
+
+  .t-card-show-tickets{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+
+
+    div{
+      display: flex;
+      justify-content: center;
+    }
+
+    .t-card-show-tickets-inputs{
+      flex-direction: column;
+
+      .number-tickets{
+        width: 10vw;
+        margin: 0 auto;
+        font-size: 2rem;
+        color: white;
+        background-color: rgb(60, 60, 60);
+        border-radius: 3px;
+      }
+
+
+      button{
+        margin: 10px auto;
+        padding: 3px;
+        width: 8vw;
+        background-color: rgb(91, 91, 91);
+      }
+      
+      button:hover{
+        background-color: rgb(35, 35, 35);
+      }
+    }
+  }
 }
 
-/* Estilo del texto informativo */
-.t-card-show-info p {
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
+.buy-tickets{
+  padding: 12px;
+  background-color: rgb(25, 25, 25);
+  text-align: center;
+  width: 25vw;
+  margin: 15px auto;
+  font-family: var(--letra2);
 }
 
 
 
-@media (min-width: 1025px) {
-  
-}
+
+
+
 
 @media (min-width: 750px) and (max-width: 1024px) {
 
+}
+
+@media (min-width: 1025px) {
+  .t-card-show-fights{
+
+    ul{
+      
+      li{
+        display: flex;
+        flex-direction: row;
+        gap: 2vh;
+        margin: 2vh 2vw;
+        justify-content: center;
+      }
+    }
+  }
 }

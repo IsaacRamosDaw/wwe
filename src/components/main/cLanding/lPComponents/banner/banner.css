@@ -1,31 +1,57 @@
 section.sBanner{
   display: flex;
   flex-direction: column;
-  text-align: center;
+  padding-top: 11dvh;
 
-  img{
-    min-height: 37dvh;
-  }
-
-  h2{ 
+  div{
+    top: 235px;
     position: absolute;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.9892157546612395) 0%, rgba(0,0,0,0.7959384437368697) 49%, rgba(0,0,0,0) 100%); 
+  }
+  h1{
+    padding: 10px;
+    margin: 0;
+    font-size: 1.5em;
+    text-align: center;
+    width: 100%;
     color: white;
-    font-size: 4rem;
-    margin: 40px;
-    z-index: 0;
-  
+
+    opacity: 0; /* Inicia cada letra con opacidad 0 (invisible) */
+    transform: translateY(-20px); /* Inicia cada letra fuera del contenedor */
+    animation: aparecer 1.5s ease-in forwards;
+
     span{
-      margin: 0 20px;
+      margin: 0 5px;
     }
-    
   }
 }
 
+@media (min-width: 700px){
+  #title{
+    font-size: 3em;
+  }
+}
+@media (min-width: 1150px){
+  #title{
+    font-size: 3em;
+  }
+}
 
+@media (max-width: 799px){
+  section.sBanner div{
+    top: 150px;
+  }
+}
 
-
-@media  (max-width: 750px) {
-  section.sBanner h2{
-    font-size: 1.8rem;
+@keyframes aparecer {
+  0% {
+      opacity: 0;
+      transform: translateY(-10px); 
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0); 
   }
 }

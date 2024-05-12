@@ -5,16 +5,22 @@
   position: fixed;
   width: 100%;
   z-index: 2;
+  box-shadow: 0 10px 50px 10px;
 }
 
 .hMenuContainer{
   display: none;
+  
+  :hover{
+    color: grey;
+  }
 }
   
 .hLogoContainer{
   display: flex;
   gap: 2vw;
   margin: 10px;
+
   img{
       height: 10vh;
   }
@@ -25,6 +31,7 @@
   align-items: center;
   
 
+
   ul{
     display: flex;
     list-style: none;
@@ -32,22 +39,27 @@
     gap: 2vw;
     margin: 0;
     font-size: 1.3rem;
-
-    color: rgb(151, 151, 151);
     font-weight: bolder;
 
     a{
-      color: rgb(151, 151, 151);
-      text-decoration: none;
-      
+      color: white;
+
+      svg{
+        color: white;
+      }
     }
 
-    a:hover{
+    /* a:hover{
       color: rgb(255, 255, 255);
-    }
+    } */
   }
+
+
 }
 
+a.header-icons{
+  color: white;
+}
 
 .hNetWork{
   display: flex;
@@ -87,6 +99,10 @@
     font-size: 1.8rem;
     color: white;
     margin: 20px;
+
+    a:hover{
+      color: grey;
+    }
   }
 }
 

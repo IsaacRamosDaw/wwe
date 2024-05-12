@@ -1,0 +1,130 @@
+section.productsLinks{
+  padding: 4vh 18vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 14%, rgba(195,195,195,1) 54%); 
+
+  .buy-it-container{
+    padding: 1vh 2vw;
+
+    a:nth-child(1){
+      display: block;
+      text-align: center;
+      font-size: 1.4em;
+      box-shadow: 0 0 44px 2px rgb(20, 0, 0) ;
+      border-radius: 10px 10px 0 0;    
+    }
+    
+    a div{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+
+      img{
+        border-radius: 10px 10px 0 0;
+        padding-bottom: 20px;
+        border: 2px solid black;
+        background-color: white;
+      }
+
+      p{
+        text-align: center;
+        border-top: 2px solid red;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        font-size: 1.2em;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        display: flex;
+        flex-direction: column;
+
+        span{
+          border-top: 2.5px solid red;
+          border-radius: 10px;
+          width: 70%;
+          margin: 0 auto;
+        }
+      }
+    }
+
+    a:nth-child(2){
+      display: block;
+      text-align: center;
+      color: wheat;
+      padding: 10px;
+      font-size: 1.3em;
+      border: 2px solid black;
+      background-color: red;
+      box-shadow: 0 0 30px 9px rgb(71, 0, 0), 0 0 30px 9px rgb(71, 0, 0) inset;
+      transition: .3s ease-in-out;
+    }
+
+    a:nth-child(2):hover{
+      color: red;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0 0 30px 9px rgb(202, 202, 202), 0 0 30px 9px rgb(181, 181, 181) inset;
+     }
+  }
+}
+
+.buy-it-text{
+  padding: 5px;
+  font-size: 2em;
+  text-align: center;
+  color: white;
+  border: 2px double rgb(0, 0, 0);
+  border-radius: 50%;
+  transition-timing-function: ease;
+  transition: 0.2s;
+}
+
+
+@media (min-width: 490px){
+  section .buy-it-container a div img{
+    height: 44vh;
+  }
+}
+
+@media (min-width: 590px){
+  section .buy-it-container a div img{
+    height: 54vh;
+  }
+}
+
+@media (min-width: 820px){
+  section.productsLinks{
+    flex-direction: row;
+    background-color: aliceblue;
+    padding: 10vh 0;
+    gap: 20px;
+  }
+
+  section .buy-it-container a div img{
+    height: 30vh;
+  }
+}
+
+ @media (min-width: 1000px){
+  section.productsLinks{
+    gap: 40px;
+  }
+
+  section .buy-it-container a div img{
+    height: 34vh;
+  }
+}
+
+
+@media (min-width: 1400px){
+  section .buy-it-container a div img{
+    height: 40vh;
+  }
+
+  section .buy-it-container a div p{
+    left: 20vw;
+    background-color: red;
+  }
+
+}

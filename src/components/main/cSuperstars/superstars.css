@@ -45,6 +45,9 @@
 
 
 .wrestler-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
   text-align: justify;
   padding: 10px;
   font-family: var(--letra4);
@@ -57,7 +60,7 @@
   .wrestler-details-h{
     background-color: rgb(190, 190, 190);
     border: 2px solid black;
-    width: 350px;
+    width: 60%;
 
 
     .details-top{

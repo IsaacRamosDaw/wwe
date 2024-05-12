@@ -1,33 +1,57 @@
-main{
+main.shop{
   display: flex;
   justify-content: space-between;
 }
 
 nav.shop-nav{
-  padding: 10px;
-  width: 195px;
-  background-color: blue;
-  position: absolute;
-  top: 15vh;
-  bottom: 15vh;
+  display: flex;
+  flex-direction: column;
+  top: 25vh;
+  position: fixed;
+  font-size: 3em;
+  letter-spacing: .37em;
+  gap: 10px;
+  
+  li{
+    background-color: black;
+
+    a{
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  li:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+
+    a{
+      color: black;
+    }
+  }
 }
 
-section.shop{
+section.shop-carusel{
   width: 100%;
   background-color: rgb(70, 70, 70);
-  height: 100vh;
   padding-left: 16vw;
+  padding-top: 16dvh;
+  padding-bottom: 16dvh;
+
+  h2{
+    text-align: end;
+    margin-right: 5vw;
+    span{
+      color: red;
+    }
+  }
+
 }
 
 /* container */
-.carusel-item-belts{
+.carusel-item-belts, .carusel-item-clothes, .carusel-item-items{
   margin: .3vh .5vw;
 
-  a:nth-child(1){
-    display: block;
-    text-align: center;
-    font-size: 1.4em;
-  }
   
   a div{
     display: flex;
@@ -84,7 +108,7 @@ section.shop{
     display: none;
   }
 
-  section.shop{
+  section.shop-carusel{
     padding-left: 5vw;
   }
 }

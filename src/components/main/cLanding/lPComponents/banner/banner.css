@@ -1,22 +1,22 @@
 section.sBanner{
   display: flex;
   flex-direction: column;
-  padding-top: 11dvh;
+  padding-top: 9dvh;
 
   div{
-    top: 235px;
+    top: 23VH;
     position: absolute;
     width: 100%;
     background: rgb(0,0,0);
     background: radial-gradient(circle, rgba(0,0,0,0.9892157546612395) 0%, rgba(0,0,0,0.7959384437368697) 49%, rgba(0,0,0,0) 100%); 
   }
   h1{
-    padding: 10px;
     margin: 0;
     font-size: 1.5em;
     text-align: center;
     width: 100%;
     color: white;
+    font-family: var(--letra7);
 
     opacity: 0; /* Inicia cada letra con opacidad 0 (invisible) */
     transform: translateY(-20px); /* Inicia cada letra fuera del contenedor */
@@ -41,7 +41,7 @@ section.sBanner{
 
 @media (max-width: 799px){
   section.sBanner div{
-    top: 150px;
+    top: 16VH;
   }
 }
 

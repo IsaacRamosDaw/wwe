@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<channel>
+  <title>Wwe Page</title>
+  <link>https://github.com/IsaacRamosDaw/wwe</link>
+  <description>wwe Stars</description>
+  <copyright>2006 Refsnes Data as. All rights reserved.</copyright>
+  <language>en-us</language>
+  <item>
+    <superstarName>Max Power</superstarName>
+    <superstarHeight>6'8"</superstarHeight>
+    <superstarMatchesCounts>1100</superstarMatchesCounts>
+    <superstarTitlesCount>15</superstarTitlesCount>
+    <superstarDescription>Known for his unmatched strength and intimidating presence, Max Power has dominated the WWE scene for over a decade.</superstarDescription>
+  </item>
+  <item>
+    <superstarName>Thunderstrike</superstarName>
+    <superstarHeight>6'4"</superstarHeight>
+    <superstarMatchesCounts>850</superstarMatchesCounts>
+    <superstarTitlesCount>8</superstarTitlesCount>
+    <superstarDescription>Thunderstrike's lightning-fast moves and electrifying entrances have made him a fan favorite.</superstarDescription>
+  </item>
+  <item>
+    <superstarName>Iron Fist</superstarName>
+    <superstarHeight>7'1"</superstarHeight>
+    <superstarMatchesCounts>950</superstarMatchesCounts>
+    <superstarTitlesCount>12</superstarTitlesCount>
+    <superstarDescription>Iron Fist is renowned for his powerful punches and iron will, making him a formidable opponent in the ring.</superstarDescription>
+  </item>
+  <item>
+    <superstarName>Luna Eclipse</superstarName>
+    <superstarHeight>5'9"</superstarHeight>
+    <superstarMatchesCounts>780</superstarMatchesCounts>
+    <superstarTitlesCount>5</superstarTitlesCount>
+    <superstarDescription>With a mysterious persona and agile movements, Luna Eclipse has captivated audiences worldwide.</superstarDescription>
+  </item>
+  <item>
+    <superstarName>Shadow Phantom</superstarName>
+    <superstarHeight>6'2"</superstarHeight>
+    <superstarMatchesCounts>670</superstarMatchesCounts>
+    <superstarTitlesCount>6</superstarTitlesCount>
+    <superstarDescription>Shadow Phantom is known for his stealthy tactics and surprise attacks, always keeping his opponents on edge.</superstarDescription>
+  </item>
+  <item>
+    <superstarName>Blaze Inferno</superstarName>
+    <superstarHeight>6'5"</superstarHeight>
+    <superstarMatchesCounts>920</superstarMatchesCounts>
+    <superstarTitlesCount>10</superstarTitlesCount>
+    <superstarDescription>Blaze Inferno's fiery temper and relentless aggression make him a fierce competitor in every match.</superstarDescription>
+  </item>
+  <item>
+    <superstarName>Crystal Storm</superstarName>
+    <superstarHeight>5'7"</superstarHeight>
+    <superstarMatchesCounts>560</superstarMatchesCounts>
+    <superstarTitlesCount>4</superstarTitlesCount>
+    <superstarDescription>Crystal Storm is celebrated for her elegance and precision, both in and out of the ring.</superstarDescription>
+  </item>
+  <item>
+    <superstarName>Vortex</superstarName>
+    <superstarHeight>6'6"</superstarHeight>
+    <superstarMatchesCounts>1050</superstarMatchesCounts>
+    <superstarTitlesCount>11</superstarTitlesCount>
+    <superstarDescription>Vortex's spinning attacks and whirlwind finishes leave his opponents dizzy and defeated.</superstarDescription>
+  </item>
+  <item>
+    <superstarName>Ice Queen</superstarName>
+    <superstarHeight>5'8"</superstarHeight>
+    <superstarMatchesCounts>620</superstarMatchesCounts>
+    <superstarTitlesCount>3</superstarTitlesCount>
+    <superstarDescription>The Ice Queen's cold demeanor and strategic mind make her a tough challenger.</superstarDescription>
+  </item>
+  <item>
+    <superstarName>Dark Knight</superstarName>
+    <superstarHeight>6'9"</superstarHeight>
+    <superstarMatchesCounts>980</superstarMatchesCounts>
+    <superstarTitlesCount>9</superstarTitlesCount>
+    <superstarDescription>Dark Knight's brooding presence and powerful moves strike fear into the hearts of his opponents.</superstarDescription>
+  </item>
+  <item>
+    <superstarName>Falcon</superstarName>
+    <superstarHeight>6'3"</superstarHeight>
+    <superstarMatchesCounts>830</superstarMatchesCounts>
+    <superstarTitlesCount>7</superstarTitlesCount>
+    <superstarDescription>With a keen eye and swift strikes, Falcon takes down his enemies with precision.</superstarDescription>
+  </item>
+  <item>
+    <superstarName>Tempest</superstarName>
+    <superstarHeight>5'10"</superstarHeight>
+    <superstarMatchesCounts>710</superstarMatchesCounts>
+    <superstarTitlesCount>5</superstarTitlesCount>
+    <superstarDescription>Tempest's stormy entrances and fierce battles have earned her a loyal fanbase.</superstarDescription>
+  </item>
+  <item>
+    <superstarName>Draco</superstarName>
+    <superstarHeight>6'7"</superstarHeight>
+    <superstarMatchesCounts>880</superstarMatchesCounts>
+    <superstarTitlesCount>10</superstarTitlesCount>
+    <superstarDescription>Draco's dragon-like fury and resilience make him a formidable force in the ring.</superstarDescription>
+  </item>
+  <item>
+    <superstarName>Venus Vixen</superstarName>
+    <superstarHeight>5'6"</superstarHeight>
+    <superstarMatchesCounts>540</superstarMatchesCounts>
+    <superstarTitlesCount>4</superstarTitlesCount>
+    <superstarDescription>Venus Vixen's charm and cunning strategies keep her opponents guessing.</superstarDescription>
+  </item>
+  <item>
+    <superstarName>Ragnarok</superstarName>
+    <superstarHeight>6'8"</superstarHeight>
+    <superstarMatchesCounts>920</superstarMatchesCounts>
+    <superstarTitlesCount>8</superstarTitlesCount>
+    <superstarDescription>Ragnarok's apocalyptic persona and devastating moves have made him a legend.</superstarDescription>
+  </item>
+  <item>
+    <superstarName>Storm Chaser</superstarName>
+    <superstarHeight>6'1"</superstarHeight>
+    <superstarMatchesCounts>650</superstarMatchesCounts>
+    <superstarTitlesCount>5</superstarTitlesCount>
+    <superstarDescription>Storm Chaser's relentless pursuit of victory makes him a relentless competitor.</superstarDescription>
+  </item>
+  <item>
+    <superstarName>Inferno</superstarName>
+    <superstarHeight>6'5"</superstarHeight>
+    <superstarMatchesCounts>940</superstarMatchesCounts>
+    <superstarTitlesCount>9</superstarTitlesCount>
+    <superstarDescription>Inferno's blazing speed and fiery spirit ignite every match he competes in.</superstarDescription>
+  </item>
+  <item>
+    <superstarName>Diamond</superstarName>
+    <superstarHeight>5'8"</superstarHeight>
+    <superstarMatchesCounts>590</superstarMatchesCounts>
+    <superstarTitlesCount>3</superstarTitlesCount>
+    <superstarDescription>Diamond's sparkling performances and sharp techniques make her a standout star.</superstarDescription>
+  </item>
+  <item>
+    <superstarName>Warrior King</superstarName>
+    <superstarHeight>6'9"</superstarHeight>
+    <superstarMatchesCounts>1010</superstarMatchesCounts>
+    <superstarTitlesCount>12</superstarTitlesCount>
+    <superstarDescription>Warrior King's regal presence and battle-hardened skills command respect in the ring.</superstarDescription>
+  </item>
+  <item>
+    <superstarName>Nightshade</superstarName>
+    <superstarHeight>6'3"</superstarHeight>
+    <superstarMatchesCounts>780</superstarMatchesCounts>
+    <superstarTitlesCount>7</superstarTitlesCount>
+    <superstarDescription>Nightshade's dark and mysterious aura, combined with his agile moves, make him a formidable opponent.</superstarDescription>
+  </item>
+</channel>

@@ -1,10 +1,9 @@
 section.productsLinks{
-  padding: 4vh 18vw;
+  padding: 15vh 18vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,1) 14%, rgba(195,195,195,1) 54%); 
+  background: linear-gradient(180deg, rgb(91, 91, 91) 43%, rgb(217, 217, 217) 90%); 
 
   .buy-it-container{
     padding: 1vh 2vw;
@@ -83,48 +82,50 @@ section.productsLinks{
 
 @media (min-width: 490px){
   section .buy-it-container a div img{
-    height: 44vh;
+    height: 35vh;
   }
 }
 
 @media (min-width: 590px){
   section .buy-it-container a div img{
-    height: 54vh;
+    height: 39vh;
   }
 }
 
-@media (min-width: 820px){
+@media (min-width: 1000px){
+  section.productsLinks{
+    background-color: aliceblue;
+    gap: 10px;
+    
+  }
+  
+  section .buy-it-container a div img{
+    height: 40vh;
+  }
+}
+
+@media (min-width: 1100px){
   section.productsLinks{
     flex-direction: row;
-    background-color: aliceblue;
-    padding: 10vh 0;
-    gap: 20px;
+    gap: 5px;
   }
 
   section .buy-it-container a div img{
-    height: 30vh;
-  }
-}
-
- @media (min-width: 1000px){
-  section.productsLinks{
-    gap: 40px;
-  }
-
-  section .buy-it-container a div img{
-    height: 34vh;
+    height: 32vh;
   }
 }
 
 
 @media (min-width: 1400px){
+  section.productsLinks{
+    flex-direction: row;
+  }
   section .buy-it-container a div img{
     height: 40vh;
   }
 
   section .buy-it-container a div p{
     left: 20vw;
-    background-color: red;
   }
 
 }

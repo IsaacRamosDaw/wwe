@@ -1,11 +1,11 @@
 import React from 'react'
 import './header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser,  faBars } from '@fortawesome/free-solid-svg-icons'
+import { faUser,  faBars, faRss } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react'
 import MenuHeader from './desplegableMenu/MenuHeader'
 
-function Header({T1,T2,T3,T4}){
+function Header({T1,T2,T3}){
   const [menu, setMenu] = useState(false);
 
 
@@ -37,7 +37,7 @@ function Header({T1,T2,T3,T4}){
           </a>
             <div className='separator'> </div>
             <ul>
-            <li><a className='header-icons' href="/account"><FontAwesomeIcon icon={faUser}/></a></li>
+              <li className='rss'><a className='header-icons' href="/account"><FontAwesomeIcon icon={faUser}/></a><a href="../../../public/rss/rss.xml"><FontAwesomeIcon icon={faRss}/></a></li>
             </ul>
         </div>
       </header>

@@ -1,12 +1,11 @@
 import React from 'react'
+import BeltsShopData from '../../../../../../public/data/shopData/beltsData';
 import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
 import "react-multi-carousel/lib/styles.css";
 
 function Belts() {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -27,21 +26,25 @@ function Belts() {
   return (
     <div className="carousel-item-belts">
       <h4>Title belts</h4>
-     <Carousel showDots={false} responsive={responsive}>
-      <div className="carusel-item-belts">
-        <a href="/shop">
-          <div>
-            <img
-              src="../../../../../../public/images/main/landing/HulkHogan.jpg"
-              alt=""
-            />
-            <p>Hulk Jogan</p>
+      <Carousel showDots={false} responsive={responsive}>
+      {BeltsShopData.map(belt => {
+        return(
+          <div key={belt.id} className="carusel-item-belts">
+            <a href="/shop">
+              <div>
+                <img
+                  src={belt.img}
+                  alt=""
+                />
+                <p>{belt.nameBelt}</p>
+              </div>
+            </a>
+            <a className="va" href="/shop">
+              {belt.price}
+            </a>
           </div>
-        </a>
-        <a className="va" href="/shop">
-          Get it
-        </a>
-      </div>
+        )
+      })}
     </Carousel>
   </div>
   )

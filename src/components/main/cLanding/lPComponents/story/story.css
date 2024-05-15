@@ -1,4 +1,4 @@
-section.story{  
+main.story{  
   .story-container-secondary{
     background-color: rgb(4, 150, 207);
 
@@ -24,7 +24,7 @@ section.story{
   justify-content: center;
   padding: 2vh;
   background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(0,0,0,1) 14%, rgba(195,195,195,1) 54%);   
+  background: linear-gradient(180deg, rgba(0,0,0,1) 14%, rgb(89, 89, 89) 54%);   
 
 
   h4{
@@ -73,6 +73,13 @@ section.story{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    p{
+      color: rgb(246, 246, 246);
+      font-size: 1.4em;
+      text-align: justify;
+      font-family: var(--letra2);
+    }
 
     h3{
       margin: 10px 0 30px;

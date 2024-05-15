@@ -11,13 +11,18 @@ nav.shop-nav{
   font-size: 3em;
   letter-spacing: .37em;
   gap: 10px;
+
   
   li{
     background-color: black;
+    transition: all .5s ease-in-out;
+    padding: 15px 3px;
 
     a{
       text-decoration: none;
       color: white;
+      transition: all .5s ease-in-out;
+
     }
   }
 
@@ -41,22 +46,28 @@ section.shop-carusel{
   h2{
     text-align: end;
     margin-right: 5vw;
+
     span{
-      color: red;
+      font-size: 3rem;
+      font-family: var(--letra2);
     }
   }
 
+  h4{
+    font-size: 1.8rem;
+    font-family: var(--letra2);
+  }
 }
 
 /* container */
 .carusel-item-belts, .carusel-item-clothes, .carusel-item-items{
-  margin: .3vh .5vw;
+  margin: 0 .2vw;
 
-  
   a div{
     display: flex;
     flex-direction: column;
     position: relative;
+    
 
     img{
       padding-bottom: 20px;
@@ -71,7 +82,7 @@ section.shop-carusel{
       border-top: 2px solid rgb(0, 0, 0);
       border-left: 2px solid black;
       border-right: 2px solid black;
-      font-size: 1.2em;
+      font-size: 1em;
       background-color: rgb(255, 255, 255);
       color: black;
       display: flex;

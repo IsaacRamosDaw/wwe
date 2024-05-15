@@ -1,5 +1,3 @@
-
-
 .t-main{
   display: flex;
   flex-direction: column;
@@ -7,11 +5,12 @@
   padding: 20vh 1vw;
   background: radial-gradient(circle, rgb(0, 1, 3) 0%, rgb(0, 15, 70) 50%, rgba(19, 0, 0, 0.87) 100%);
 }
+
 details{
   summary{
     list-style: none;
+    margin-bottom: 4vh;
   }
-
 }
 
 details[open] summary ~ *{
@@ -32,14 +31,9 @@ details[open] summary ~ *{
   text-align: center;
   justify-content: space-between;
   color: white;
-  background-image: url(../../../../public/images/main/ticketsImg/texture7.png);
   border-top-left-radius: 10px;
   background-size: 100vw;
-  /* background-attachment: fixed; */
   box-shadow: 0 20px 60px black;
-
-  
-
 
   .t-card-info-date{
     height: 100%;
@@ -51,28 +45,28 @@ details[open] summary ~ *{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 1.4rem;
     color: white;
   }
 
   .t-card-info-mainEvent{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     display: flex;
     justify-content: center;
     gap: 5px;
     padding: 0 2px;
     font-family: "Spectral SC", serif;
+    
   }
 
   .t-card-info-brand{
     height: 100%;
     padding: 10px;
-    font-size: 1.6rem;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-left: 5px black double;
-    background-color: rgb(74, 0, 0);
     color: white;
   }
 
@@ -102,6 +96,7 @@ details[open] summary ~ *{
 
 .t-card-new-container {
   padding: 10px;
+  margin-bottom: 5vh;
 }
 
 
@@ -118,6 +113,7 @@ details[open] summary ~ *{
   background-size: cover;
   border: 2px solid rgba(0, 0, 97, 0.379);
   box-shadow:  0 20px 30px black;
+  
   h4{
     font-size: 2rem;
     padding: 0;
@@ -144,7 +140,7 @@ details[open] summary ~ *{
 
         p{
           margin: 4px 0;
-          font-family: var(--letra5);
+          font-family: var(--letra7);
           font-size: 1.2rem;
         }
 
@@ -155,7 +151,6 @@ details[open] summary ~ *{
   }
 
   /* lado derecho */
-
   .t-card-show-tickets{
     padding: 5px;
     display: flex;
@@ -174,7 +169,7 @@ details[open] summary ~ *{
       .number-tickets{
         width: 10vw;
         margin: 0 auto;
-        font-size: 2rem;
+        font-size: 1.4rem;
         color: white;
         background-color: rgb(60, 60, 60);
         border-radius: 3px;
@@ -216,7 +211,6 @@ details[open] summary ~ *{
 
 @media (min-width: 1025px) {
   .t-card-show-fights{
-
     ul{
       
       li{

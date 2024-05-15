@@ -1,26 +1,19 @@
 import React from "react";
 import "./superstars.css";
+import SuperStarsData from "../../../../public/data/superStarsData/superStarsData";
 
-const Superstars = ({
-  imageUrl,
-  name,
-  surname,
-  origin,
-  height,
-  fights,
-  championships,
-  bio,
-}) => {
+function Superstars() {
   return (
     <main className="wrestler-info-container">
-      <div className="wrestler-info-content">
+      {SuperStarsData.map(superStar => {
+        return(
+      <div key={superStar.id} className="wrestler-info-content">
         <div className="wrestler-image">
           <div className="wrestler-image-name">
-            <h3>The Rock</h3>
+            <h3>{superStar.name}</h3>
           </div>
           <img
-            src="https://media.gettyimages.com/id/142809003/es/foto/miami-gardens-fl-dwayne-the-rock-johnson-looks-on-during-his-match-against-john-cena-during.jpg?s=612x612&w=0&k=20&c=TQXOHAWfIboQlAuq8BxZwIZpyNtQO9X6V2iXAbVw6sU="
-            alt={`${name}`}
+            src={superStar.img}
           />
         </div>
 
@@ -29,24 +22,21 @@ const Superstars = ({
             <div className="wrestler-details-h">
               <span className="details-top"></span>
               <div>
-                <p>ORIGIN</p> <span>PALABRA</span>
+                <p>ORIGIN</p> <span>{superStar.origin}</span>
               </div>
               <div>
-                <p>HEIGHt</p> <span>PALABRA</span>
+                <p>HEIGHT</p> <span>{superStar.height}</span>
               </div>
               <div>
-                <p>CHAMPIONS</p> <span>PALABRA</span>
+                <p>CHAMPIONS</p> <span>{superStar.Champion}</span>
               </div>
               <div>
-                <p>FIGHTS</p> <span>PALABRA</span>
+                <p>FIGHTS</p> <span>{superStar.Fights}</span>
               </div>
               <div>
-                <p>NICKNAME</p> <span>PALABRA</span>
+                <p>NICKNAME</p> <span>{superStar.nickname}</span>
               </div>
-
             </div>
-
-
           </div>
 
           <div className="wrestler-details-text">
@@ -59,7 +49,6 @@ const Superstars = ({
               laudantium, ducimus inventore cupiditate 
               quibusdam error, maiores ex eveniet libero perspiciatis et,.
             </p>
-
             <small>
               "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
               laboriosam numquam!"
@@ -69,8 +58,10 @@ const Superstars = ({
           </div>
         </div>
       </div>
+        )
+      })}
     </main>
-  );
-};
+  )
+}
 
 export default Superstars;

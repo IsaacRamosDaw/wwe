@@ -8,7 +8,7 @@ function ProductsContainer() {
           <a href="/shop">
             <div>
               <img className='img-product' src="../../../../../../public/images/main/landing/HulkHogan.jpg" alt="" />
-              <p className='hogan'>Hulk Jogan</p>
+              <p className='hogan'>Hulk Jogan POP</p>
             </div>
           </a>
           <a className='va' href="/shop">Get it</a>
@@ -17,8 +17,8 @@ function ProductsContainer() {
         <div className='buy-it-container'>
           <a href="/shop">
             <div>
-              <img src="../../../../../../public/images/main/landing/HulkHogan.jpg" alt="" />
-              <p>Hulk Jogan</p>
+              <img src="../../../../../../public/images/main/landing/belt.png" alt="" />
+              <p>WWE Tilte</p>
             </div>
           </a>
           <a className='va' href="/shop">Get it</a>
@@ -27,8 +27,8 @@ function ProductsContainer() {
         <div className='buy-it-container'>
           <a href="/shop">
             <div>
-              <img src="../../../../../../public/images/main/landing/HulkHogan.jpg" alt="" />
-              <p>Hulk Jogan</p>
+              <img src="../../../../../../public/images/main/landing/cartel.png" alt="" />
+              <p>Wrestlemania Cartel</p>
             </div>
           </a>
           <a className='va' href="/shop">Get it</a>

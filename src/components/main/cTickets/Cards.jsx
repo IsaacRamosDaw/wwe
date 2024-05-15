@@ -1,37 +1,37 @@
 import React, { useState } from "react";
-import ticketsCard from "../../../services/images/tickets/tickets";
 import "./card.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown, faArrowUp } from '@fortawesome/free-solid-svg-icons'
+import TicketsData from '../../../../public/data/ticketsData/ticketsData'
+
 function Card() {
   const [count, setCount] = useState(0);
 
   return (
     <>
       <main className="t-main">
+        {TicketsData.map(ticket => {
+          return (
         <details>
-
           <summary>
-
-            <div className="t-card-info">
+            <div style={{backgroundImage: `${ticket.background}`}} className="t-card-info">
 
               <div className="t-card-info-date">
                 <span className="t-card-info-date-text">
-                  {ticketsCard[0].date}
+                  {ticket.day}
                 </span>
               </div>
 
               <div className="t-card-info-mainEvent">
-                <p>Brock</p>
+                <p>{ticket.mainEventFirstFighter}</p>
                 <p>vs</p>
-                <p>Lesnar</p>
+                <p>{ticket.mainEventSecondFighter}</p>
               </div>
 
-              <div className="t-card-info-brand">
-                <p>aew</p>
+              <div style={{backgroundColor: `${ticket.brandColor}`}} className="t-card-info-brand">
+                <p>{ticket.brand}</p>
               </div>
             </div>
-
           </summary>
 
           <div class="t-card-new-container">
@@ -40,19 +40,19 @@ function Card() {
                 <h4>Fights</h4>
                 <ul>
                   <li>
-                    <p>Jorge masvidal</p>
+                    <p>{ticket.firstFightFighter_1}</p>
                     <span> VS </span>
-                    <p>Inio Asano</p>
+                    <p>{ticket.firstFightFighter_2}</p>
                   </li>
                   <li>
-                    <p>Jorge masvidal</p>
+                    <p>{ticket.secondFightFighter_1}</p>
                     <span> VS </span>
-                    <p>Inio Asano</p>
+                    <p>{ticket.secondFightFighter_2}</p>
                   </li>
                   <li>
-                    <p>Jorge masvidal</p>
+                    <p>{ticket.thirdFightFighter_1}</p>
                     <span> VS </span>
-                    <p>Inio Asano</p>
+                    <p>{ticket.thirdFightFighter_2}</p>
                   </li>
                 </ul>
               </div>
@@ -60,22 +60,18 @@ function Card() {
               <div className="t-card-show-tickets">
                 <div className="t-card-show-tickets-inputs">
                 <button onClick={() => setCount(count+1)}><FontAwesomeIcon icon={faArrowUp}/></button>
-
                 <div className="number-tickets">
                   {count}
                 </div>
-
                 <button onClick={() => setCount(count-1)}><FontAwesomeIcon icon={faArrowDown}/></button>
-
                 </div>
-                <a href="/home" className="buy-tickets">
-                  Buy Tickets
-                </a>
+                <a href="/home" className="buy-tickets">Buy Tickets</a>
               </div>
             </div>
           </div>
-
         </details>
+          )
+        })}
       </main>
     </>
   );

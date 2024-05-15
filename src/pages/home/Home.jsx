@@ -6,7 +6,7 @@ function Home() {
 
   return (
     <>
-      <Header T1="SUPERSTARTS" T2="SHOP" T3="TICKETS"/>
+      <Header T1="SUPERSTARTS" T2="SHOP" T3="TICKETS" T4='RSS'/>
         <LandingPage/>
       <Footer/>
     </>

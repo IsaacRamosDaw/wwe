@@ -1,12 +1,11 @@
 import React from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import "react-multi-carousel/lib/styles.css";
+import ClothesShopData from '../../../../../../public/data/shopData/clothesData';
 
 function Clothes() {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -26,22 +25,26 @@ function Clothes() {
 
   return (
     <div className="carousel-item-clothes">
-      <h4>Title clothes</h4>
-     <Carousel showDots={false} responsive={responsive}>
-      <div className="carusel-item-clothes">
-        <a href="/shop">
-          <div>
-            <img
-              src="../../../../../../public/images/main/landing/HulkHogan.jpg"
-              alt=""
-            />
-            <p>Hulk Jogan</p>
+      <h4>WWE CLOTHES</h4>
+      <Carousel showDots={false} responsive={responsive}>
+      {ClothesShopData.map(clothes => {
+        return(
+          <div key={clothes.id} className="carusel-item-clothes">
+            <a href="/shop">
+              <div>
+                <img
+                  src="../../../../../../public/images/main/landing/HulkHogan.jpg"
+                  alt=""
+                />
+                <p>{clothes.nameClothes}</p>
+              </div>
+            </a>
+            <a href="/shop">
+              {clothes.price}
+            </a>
           </div>
-        </a>
-        <a className="va" href="/shop">
-          Get it
-        </a>
-      </div>
+        )
+      })}
     </Carousel>
   </div>
   )

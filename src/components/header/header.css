@@ -1,11 +1,17 @@
 #header{
-  background-color: rgb(33, 32, 32);
+  background: rgb(47,47,47);
+  background: linear-gradient(180deg, rgb(26, 26, 26) 90%, rgba(0,212,255,0) 100%); 
   display: flex;
   justify-content: space-between;
   position: fixed;
   width: 100%;
   z-index: 2;
-  box-shadow: 0 10px 50px 10px;
+
+  .rss a:nth-child(2){
+    color: rgb(214, 153, 38);
+    margin-left: 20px;
+  }
+
 }
 
 .hMenuContainer{
@@ -43,15 +49,11 @@
 
     a{
       color: white;
-
-      svg{
-        color: white;
-      }
     }
 
-    /* a:hover{
-      color: rgb(255, 255, 255);
-    } */
+    a:hover{
+      color: rgb(194, 194, 194);
+    }
   }
 
 

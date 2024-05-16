@@ -6,7 +6,7 @@ import ItemsShop from '../../components/main/cShop/ItemsShop'
 function Shop() {
   return (
     <>
-      {/* <Header T1='SUPERSTARS' T2='SHOP' T3='TICKETS'/> */}
+      <Header T1="SUPERSTARS" T2="SHOP" T3="TICKETS" />
         <ItemsShop/>
       <Footer/>
     </>

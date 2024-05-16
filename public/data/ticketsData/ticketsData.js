@@ -12,7 +12,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'AEW',
     brandColor: 'rgba(126, 76, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture7.png)'
+    background: 'url(/images/main/ticketsImg/texture7.png)'
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'RAW',
     brandColor: 'rgba(156, 0, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture4.png)'
+    background: 'url(/images/main/ticketsImg/texture4.png)'
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'NITRO',
     brandColor: 'rgba(0, 8, 156, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture9.png)'
+    background: 'url(/images/main/ticketsImg/texture9.png)'
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'ECW',
     brandColor: 'rgba(57, 15, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture6.png)'
+    background: 'url(/images/main/ticketsImg/texture6.png)'
   },
   {
     id: 5,
@@ -72,7 +72,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'AEW',
     brandColor: 'rgba(126, 76, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture5.png)'
+    background: 'url(/images/main/ticketsImg/texture5.png)'
   },
   {
     id: 6,
@@ -87,7 +87,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'RAW',
     brandColor: 'rgba(156, 0, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture.png)'
+    background: 'url(/images/main/ticketsImg/texture.png)'
   },
   {
     id: 7,
@@ -102,7 +102,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'NITRO',
     brandColor: 'rgba(0, 8, 156, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture11.png)'
+    background: 'url(/images/main/ticketsImg/texture11.png)'
   },
   {
     id: 8,
@@ -117,7 +117,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'ECW',
     brandColor: 'rgba(57, 15, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture12.png)'
+    background: 'url(/images/main/ticketsImg/texture12.png)'
   },
   {
     id: 9,
@@ -132,7 +132,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'AEW',
     brandColor: 'rgba(126, 76, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture13.jpg)'
+    background: 'url(/images/main/ticketsImg/texture13.jpg)'
   },
   {
     id: 10,
@@ -147,7 +147,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'RAW',
     brandColor: 'rgba(156, 0, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture14.jpg)'
+    background: 'url(/images/main/ticketsImg/texture14.jpg)'
   },
   {
     id: 11,
@@ -162,7 +162,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'NITRO',
     brandColor: 'rgba(0, 8, 156, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture15.jpg)'
+    background: 'url(/images/main/ticketsImg/texture15.jpg)'
   },
   {
     id: 12,
@@ -177,7 +177,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'ECW',
     brandColor: 'rgba(57, 15, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture2.png)'
+    background: 'url(/images/main/ticketsImg/texture2.png)'
   },
   {
     id: 13,
@@ -192,7 +192,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'AEW',
     brandColor: 'rgba(126, 76, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture7.png)'
+    background: 'url(/images/main/ticketsImg/texture7.png)'
   },
   {
     id: 14,
@@ -207,7 +207,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'RAW',
     brandColor: 'rgba(156, 0, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture5.png)'
+    background: 'url(/images/main/ticketsImg/texture5.png)'
   },
   {
     id: 15,
@@ -222,7 +222,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'NITRO',
     brandColor: 'rgba(0, 8, 156, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture9.png)'
+    background: 'url(/images/main/ticketsImg/texture9.png)'
   },
   {
     id: 16,
@@ -237,7 +237,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'ECW',
     brandColor: 'rgba(57, 15, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture4.png)'
+    background: 'url(/images/main/ticketsImg/texture4.png)'
   },
   {
     id: 18,
@@ -252,7 +252,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'AEW',
     brandColor: 'rgba(126, 76, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture11.png)'
+    background: 'url(/images/main/ticketsImg/texture11.png)'
   },
   {
     id: 19,
@@ -267,7 +267,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'RAW',
     brandColor: 'rgba(156, 0, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture7.png)'
+    background: 'url(/images/main/ticketsImg/texture7.png)'
   },
   {
     id: 20,
@@ -282,7 +282,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'NITRO',
     brandColor: 'rgba(0, 8, 156, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture1.png)'
+    background: 'url(/images/main/ticketsImg/texture1.png)'
   },
   {
     id: 21,
@@ -297,7 +297,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'ECW',
     brandColor: 'rgba(57, 15, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture9.png)'
+    background: 'url(/images/main/ticketsImg/texture9.png)'
   },
   {
     id: 22,
@@ -312,7 +312,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'AEW',
     brandColor: 'rgba(126, 76, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture4.png)'
+    background: 'url(/images/main/ticketsImg/texture4.png)'
   },
   {
     id: 23,
@@ -327,7 +327,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'RAW',
     brandColor: 'rgba(156, 0, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture3.png)'
+    background: 'url(/images/main/ticketsImg/texture3.png)'
   },
   {
     id: 24,
@@ -342,7 +342,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'NITRO',
     brandColor: 'rgba(0, 8, 156, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture12.png)'
+    background: 'url(/images/main/ticketsImg/texture12.png)'
   },
   {
     id: 25,
@@ -357,7 +357,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'ECW',
     brandColor: 'rgba(57, 15, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture.png)'
+    background: 'url(/images/main/ticketsImg/texture.png)'
   },
   {
     id: 26,
@@ -372,7 +372,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'AEW',
     brandColor: 'rgba(126, 76, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture2.png)'
+    background: 'url(/images/main/ticketsImg/texture2.png)'
   },
   {
     id: 27,
@@ -387,7 +387,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'RAW',
     brandColor: 'rgba(156, 0, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture8.png)'
+    background: 'url(/images/main/ticketsImg/texture8.png)'
   },
   {
     id: 28,
@@ -402,7 +402,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'NITRO',
     brandColor: 'rgba(0, 8, 156, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture5.png)'
+    background: 'url(/images/main/ticketsImg/texture5.png)'
   },
   {
     id: 29,
@@ -417,7 +417,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'ECW',
     brandColor: 'rgba(57, 15, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture0.png)'
+    background: 'url(/images/main/ticketsImg/texture0.png)'
   },
 ]
 

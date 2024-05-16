@@ -7,7 +7,7 @@ function ProductsContainer() {
         <div className='buy-it-container'>
           <a href="/shop">
             <div>
-              <img className='img-product' src="../../../../../../public/images/main/landing/HulkHogan.jpg" alt="" />
+              <img className='img-product' src="/images/main/landing/HulkHogan.jpg" alt="" />
               <p className='hogan'>Hulk Jogan POP</p>
             </div>
           </a>
@@ -17,7 +17,7 @@ function ProductsContainer() {
         <div className='buy-it-container'>
           <a href="/shop">
             <div>
-              <img src="../../../../../../public/images/main/landing/belt.png" alt="" />
+              <img src="/images/main/landing/belt.png" alt="" />
               <p>WWE Tilte</p>
             </div>
           </a>
@@ -27,7 +27,7 @@ function ProductsContainer() {
         <div className='buy-it-container'>
           <a href="/shop">
             <div>
-              <img src="../../../../../../public/images/main/landing/cartel.png" alt="" />
+              <img src="/images/main/landing/cartel.png" alt="" />
               <p>Wrestlemania Cartel</p>
             </div>
           </a>

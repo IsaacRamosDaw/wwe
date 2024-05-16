@@ -8,7 +8,7 @@ function Story() {
         <h4>WWE LEGENDS</h4>
         <div className="superstars-old-container">
           <div className="superstars-old-image">
-            <img src="../../../../../../public/images/main/landing/brunoSamartino.png" alt="" />
+            <img src="/images/main/landing/brunoSamartino.png" alt="" />
           </div>
           <div className="superstars-old-text">
             <h3>Bruno Samartino</h3>
@@ -24,7 +24,7 @@ function Story() {
         </div>
         <div className="superstars-old-container reversed">
           <div className="superstars-old-image">
-            <img src="../../../../../../public/images/main/landing/HulkHigan.png" alt="" />
+            <img src="/images/main/landing/HulkHigan.png" alt="" />
           </div>
 
           <div className="superstars-old-text">
@@ -44,7 +44,7 @@ function Story() {
         </div>
         <div className="superstars-old-container">
           <div className="superstars-old-image">
-            <img src="../../../../../../public/images/main/landing/fotoUndertaker.png" alt="" />
+            <img src="/images/main/landing/fotoUndertaker.png" alt="" />
           </div>
           <div className="superstars-old-text">
             <h3>The Undertaker</h3>

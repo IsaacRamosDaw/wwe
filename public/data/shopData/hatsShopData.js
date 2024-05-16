@@ -1,7 +1,7 @@
-const ItemData = [
+const HatShopData = [
   {
     id: 1,
-    name: 'ITEMS',
+    name: 'Hat1',
     price: '100.95€',
     img: 'https://images.footballfanatics.com/john-cena/mens-light-blue/orange-john-cena-never-give-up-adjustable-hat_ss5_p-200540202+u-2z5cgi2zla9viznhl3vk+v-nzvfzfbeudrsp1brewtz.jpg?_hv=2&w=340'
   },
@@ -109,4 +109,4 @@ const ItemData = [
   }
 ]
 
-export default ItemData
+export default HatShopData

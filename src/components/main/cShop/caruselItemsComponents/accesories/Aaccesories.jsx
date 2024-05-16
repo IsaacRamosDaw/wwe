@@ -24,7 +24,7 @@ function Aaccesories() {
   }
   
   return (
-    <div className="carousel-item-clothes">
+    <div id='accesories' className="carousel-item-clothes">
       <h4>WWE ACCESORIES</h4>
       <Carousel showDots={false} responsive={responsive}>
       {AccesoriesData.map(accesorie => {

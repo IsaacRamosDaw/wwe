@@ -3,6 +3,7 @@ import Belts from "./caruselItemsComponents/belts/Belts";
 import Items from "./caruselItemsComponents/items/Items";
 import Hats from "./caruselItemsComponents/hats/Hats";
 import Aaccesories from "./caruselItemsComponents/accesories/Aaccesories";
+import Shirts from "./caruselItemsComponents/shirts/Shirts";
 import "./itemsShop.css";
 import "react-multi-carousel/lib/styles.css";
 
@@ -13,10 +14,11 @@ function ItemsShop(){
       <main className="shop">
         <nav className="shop-nav">
           <ul>
-            <li><a href="">Belts</a></li>
-            <li><a href="">Hats</a></li>
-            <li><a href="">Accesories</a></li>
-            <li><a href="">Shirts</a></li>
+            <li><a href="#belts">Belts</a></li>
+            <li><a href="#hats">Hats</a></li>
+            <li><a href="#accesories">Accesories</a></li>
+            <li><a href="#shirts">Shirts</a></li>
+            <li><a href="#items">Items</a></li>
           </ul>
         </nav>
         <section className="shop-carusel">
@@ -24,6 +26,7 @@ function ItemsShop(){
           <Belts/>
           <Hats/>
           <Aaccesories/>
+          <Shirts/>
           <Items/>
         </section>
       </main>

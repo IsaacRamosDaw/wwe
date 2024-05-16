@@ -24,7 +24,7 @@ function Items() {
   }
 
   return (
-    <div className="carousel-item-items">
+    <div id='items' className="carousel-item-items">
       <h4>WWE Items</h4>
       <Carousel showDots={false} responsive={responsive}>
       {ItemsShopData.map(item => {
@@ -33,7 +33,7 @@ function Items() {
             <a href="/shop">
               <div>
                 <img
-                  src="/images/main/landing/HulkHogan.jpg"
+                  src={item.img}
                   alt=""
                 />
                 <p>{item.name}</p>

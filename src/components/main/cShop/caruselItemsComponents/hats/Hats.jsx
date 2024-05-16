@@ -23,7 +23,7 @@ function Hats() {
     },
   }
   return (
-    <div className="carousel-item-hats">
+    <div id='hats' className="carousel-item-hats">
     <h4>WWE HATS</h4>
     <Carousel showDots={false} responsive={responsive}>
     {HatShopData.map(hat => {

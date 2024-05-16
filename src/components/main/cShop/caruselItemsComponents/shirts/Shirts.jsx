@@ -24,7 +24,7 @@ function Shirts() {
   }
 
   return (
-    <div className="carousel-item-shirt">
+    <div id='shirts' className="carousel-item-shirt">
       <h4>WWE SHIRTS</h4>
       <Carousel showDots={false} responsive={responsive}>
         {ShirtsShopData.map(shirts => {

@@ -24,7 +24,7 @@ function Belts() {
   }
 
   return (
-    <div className="carousel-item-belts">
+    <div id='belts' className="carousel-item-belts">
       <h4>TITLE BELTS</h4>
       <Carousel showDots={false} responsive={responsive}>
       {BeltsShopData.map(belt => {

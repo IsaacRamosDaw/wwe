@@ -130,7 +130,6 @@ details[open] summary ~ *{
     flex-direction: column;
     width: 55vw;
     font-family: var(--letra2);
-    color: bisque;
 
     ul{
         padding: 1vh 0;
@@ -141,7 +140,6 @@ details[open] summary ~ *{
         p{
           margin: 4px 0;
           font-family: var(--letra7);
-          font-size: 1.2rem;
         }
 
         span{
@@ -197,12 +195,8 @@ details[open] summary ~ *{
   width: 25vw;
   margin: 15px auto;
   font-family: var(--letra2);
+  color: white;
 }
-
-
-
-
-
 
 
 @media (min-width: 750px) and (max-width: 1024px) {
@@ -219,6 +213,29 @@ details[open] summary ~ *{
         gap: 2vh;
         margin: 2vh 2vw;
         justify-content: center;
+      }
+    }
+  }
+
+  .t-card-info-mainEvent{
+    p:nth-child(1),p:nth-child(3){
+      font-size: 1.5em;
+    }
+
+    p:nth-child(2){
+      margin: 5px 10px 0;
+      font-size: 1.3em;
+      justify-content: baseline;
+    }
+  }
+
+  .t-card-show-fights{
+    #fights{
+      font-size: 2.4em;
+
+      ul li p{
+        font-size: 10em;
+        color: red;
       }
     }
   }

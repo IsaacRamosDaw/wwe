@@ -1,143 +1,143 @@
 const TicketsData = [
   {
     id: 1,
-    day: '4/21',
-    mainEventFirstFighter: 'Brock',
-    mainEventSecondFighter: 'Lesnar',
-    firstFightFighter_1: 'Jorge Masvidal',
-    firstFightFighter_2: 'John Cena',
-    secondFightFighter_1: 'Chris Jericho',
-    secondFightFighter_2: 'Cody Rhodes',
-    thirdFightFighter_1: 'Undertaker',
-    thirdFightFighter_2: 'Rey Misterio',
-    brand: 'AEW',
-    brandColor: 'rgba(126, 76, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture7.png)'
+    day: '6/15',
+    mainEventFirstFighter: 'Roman Reigns',
+    mainEventSecondFighter: 'Seth Rollins',
+    firstFightFighter_1: 'AJ Styles',
+    firstFightFighter_2: 'Kevin Owens',
+    secondFightFighter_1: 'Randy Orton',
+    secondFightFighter_2: 'Finn Bálor',
+    thirdFightFighter_1: 'Big E',
+    thirdFightFighter_2: 'Sheamus',
+    brand: 'SmackDown',
+    brandColor: 'rgba(0, 123, 255, 0.8)',
+    background: 'url(/images/main/ticketsImg/texture1.png)'
   },
   {
     id: 2,
-    day: '4/21',
-    mainEventFirstFighter: 'Kendrick',
-    mainEventSecondFighter: 'Lamar',
-    firstFightFighter_1: 'Jorge Masvidal',
-    firstFightFighter_2: 'John Cena',
-    secondFightFighter_1: 'Chris Jericho',
-    secondFightFighter_2: 'Cody Rhodes',
-    thirdFightFighter_1: 'Undertaker',
-    thirdFightFighter_2: 'Rey Misterio',
+    day: '7/22',
+    mainEventFirstFighter: 'Becky Lynch',
+    mainEventSecondFighter: 'Charlotte Flair',
+    firstFightFighter_1: 'Bayley',
+    firstFightFighter_2: 'Sasha Banks',
+    secondFightFighter_1: 'Alexa Bliss',
+    secondFightFighter_2: 'Asuka',
+    thirdFightFighter_1: 'Natalya',
+    thirdFightFighter_2: 'Carmella',
     brand: 'RAW',
-    brandColor: 'rgba(156, 0, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture4.png)'
+    brandColor: 'rgba(255, 0, 0, 0.8)',
+    background: 'url(/images/main/ticketsImg/texture2.png)'
   },
   {
     id: 3,
-    day: '4/21',
-    mainEventFirstFighter: 'Brock',
-    mainEventSecondFighter: 'Lesnar',
-    firstFightFighter_1: 'Jorge Masvidal',
-    firstFightFighter_2: 'John Cena',
-    secondFightFighter_1: 'Chris Jericho',
-    secondFightFighter_2: 'Cody Rhodes',
-    thirdFightFighter_1: 'Undertaker',
-    thirdFightFighter_2: 'Rey Misterio',
-    brand: 'NITRO',
-    brandColor: 'rgba(0, 8, 156, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture9.png)'
+    day: '8/18',
+    mainEventFirstFighter: 'Drew McIntyre',
+    mainEventSecondFighter: 'Bobby Lashley',
+    firstFightFighter_1: 'Jeff Hardy',
+    firstFightFighter_2: 'Ricochet',
+    secondFightFighter_1: 'Sami Zayn',
+    secondFightFighter_2: 'Shinsuke Nakamura',
+    thirdFightFighter_1: 'Kofi Kingston',
+    thirdFightFighter_2: 'Baron Corbin',
+    brand: 'NXT',
+    brandColor: 'rgba(255, 223, 0, 0.8)',
+    background: 'url(/images/main/ticketsImg/texture3.png)'
   },
   {
     id: 4,
-    day: '10/21',
-    mainEventFirstFighter: 'Brock',
-    mainEventSecondFighter: 'Lesnar',
-    firstFightFighter_1: 'Jorge Masvidal',
-    firstFightFighter_2: 'John Cena',
-    secondFightFighter_1: 'Chris Jericho',
-    secondFightFighter_2: 'Cody Rhodes',
-    thirdFightFighter_1: 'Undertaker',
-    thirdFightFighter_2: 'Rey Misterio',
-    brand: 'ECW',
-    brandColor: 'rgba(57, 15, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture6.png)'
+    day: '9/10',
+    mainEventFirstFighter: 'John Cena',
+    mainEventSecondFighter: 'Edge',
+    firstFightFighter_1: 'Rey Mysterio',
+    firstFightFighter_2: 'Dolph Ziggler',
+    secondFightFighter_1: 'The Miz',
+    secondFightFighter_2: 'Damian Priest',
+    thirdFightFighter_1: 'Cesaro',
+    thirdFightFighter_2: 'Jey Uso',
+    brand: 'SmackDown',
+    brandColor: 'rgba(0, 123, 255, 0.8)',
+    background: 'url(/images/main/ticketsImg/texture4.png)'
   },
   {
     id: 5,
-    day: '4/21',
-    mainEventFirstFighter: 'Brock',
-    mainEventSecondFighter: 'Lesnar',
-    firstFightFighter_1: 'Jorge Masvidal',
-    firstFightFighter_2: 'John Cena',
-    secondFightFighter_1: 'Chris Jericho',
-    secondFightFighter_2: 'Cody Rhodes',
-    thirdFightFighter_1: 'Undertaker',
-    thirdFightFighter_2: 'Rey Misterio',
-    brand: 'AEW',
-    brandColor: 'rgba(126, 76, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture5.png)'
+    day: '10/05',
+    mainEventFirstFighter: 'Brock Lesnar',
+    mainEventSecondFighter: 'Braun Strowman',
+    firstFightFighter_1: 'Riddle',
+    firstFightFighter_2: 'Keith Lee',
+    secondFightFighter_1: 'Mustafa Ali',
+    secondFightFighter_2: 'Drew Gulak',
+    thirdFightFighter_1: 'Apollo Crews',
+    thirdFightFighter_2: 'Elias',
+    brand: 'RAW',
+    brandColor: 'rgba(255, 0, 0, 0.8)',
+    background: 'url(/images/main/ticketsImg/texture5.png)'
   },
   {
     id: 6,
-    day: '4/21',
-    mainEventFirstFighter: 'Kendrick',
-    mainEventSecondFighter: 'Lamar',
-    firstFightFighter_1: 'Jorge Masvidal',
-    firstFightFighter_2: 'John Cena',
-    secondFightFighter_1: 'Chris Jericho',
-    secondFightFighter_2: 'Cody Rhodes',
-    thirdFightFighter_1: 'Undertaker',
-    thirdFightFighter_2: 'Rey Misterio',
-    brand: 'RAW',
-    brandColor: 'rgba(156, 0, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture.png)'
+    day: '11/12',
+    mainEventFirstFighter: 'Triple H',
+    mainEventSecondFighter: 'Shawn Michaels',
+    firstFightFighter_1: 'Kane',
+    firstFightFighter_2: 'Big Show',
+    secondFightFighter_1: 'R-Truth',
+    secondFightFighter_2: 'Shelton Benjamin',
+    thirdFightFighter_1: 'Cedric Alexander',
+    thirdFightFighter_2: 'Humberto Carrillo',
+    brand: 'NXT',
+    brandColor: 'rgba(255, 223, 0, 0.8)',
+    background: 'url(/images/main/ticketsImg/texture6.png)'
   },
   {
     id: 7,
-    day: '4/21',
-    mainEventFirstFighter: 'Brock',
-    mainEventSecondFighter: 'Lesnar',
-    firstFightFighter_1: 'Jorge Masvidal',
-    firstFightFighter_2: 'John Cena',
-    secondFightFighter_1: 'Chris Jericho',
-    secondFightFighter_2: 'Cody Rhodes',
-    thirdFightFighter_1: 'Undertaker',
-    thirdFightFighter_2: 'Rey Misterio',
-    brand: 'NITRO',
-    brandColor: 'rgba(0, 8, 156, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture11.png)'
+    day: '12/01',
+    mainEventFirstFighter: 'The Rock',
+    mainEventSecondFighter: 'Stone Cold Steve Austin',
+    firstFightFighter_1: 'Randy Orton',
+    firstFightFighter_2: 'Bray Wyatt',
+    secondFightFighter_1: 'Jeff Hardy',
+    secondFightFighter_2: 'Matt Hardy',
+    thirdFightFighter_1: 'Chris Jericho',
+    thirdFightFighter_2: 'Kurt Angle',
+    brand: 'RAW',
+    brandColor: 'rgba(255, 0, 0, 0.8)',
+    background: 'url(/images/main/ticketsImg/texture7.png)'
   },
   {
     id: 8,
-    day: '10/21',
-    mainEventFirstFighter: 'Brock',
-    mainEventSecondFighter: 'Lesnar',
-    firstFightFighter_1: 'Jorge Masvidal',
-    firstFightFighter_2: 'John Cena',
-    secondFightFighter_1: 'Chris Jericho',
-    secondFightFighter_2: 'Cody Rhodes',
-    thirdFightFighter_1: 'Undertaker',
-    thirdFightFighter_2: 'Rey Misterio',
-    brand: 'ECW',
-    brandColor: 'rgba(57, 15, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture12.png)'
+    day: '1/25',
+    mainEventFirstFighter: 'Undertaker',
+    mainEventSecondFighter: 'Kane',
+    firstFightFighter_1: 'Booker T',
+    firstFightFighter_2: 'Goldberg',
+    secondFightFighter_1: 'Batista',
+    secondFightFighter_2: 'Rey Mysterio',
+    thirdFightFighter_1: 'John Morrison',
+    thirdFightFighter_2: 'Miz',
+    brand: 'SmackDown',
+    brandColor: 'rgba(0, 123, 255, 0.8)',
+    background: 'url(/images/main/ticketsImg/texture8.png)'
   },
   {
     id: 9,
-    day: '4/21',
-    mainEventFirstFighter: 'Brock',
-    mainEventSecondFighter: 'Lesnar',
+    day: '9/29',
+    mainEventFirstFighter: 'Paul Heyman',
+    mainEventSecondFighter: 'Brock',
     firstFightFighter_1: 'Jorge Masvidal',
     firstFightFighter_2: 'John Cena',
-    secondFightFighter_1: 'Chris Jericho',
+    secondFightFighter_1: 'Chris strokes',
     secondFightFighter_2: 'Cody Rhodes',
     thirdFightFighter_1: 'Undertaker',
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'AEW',
     brandColor: 'rgba(126, 76, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture13.jpg)'
+    background: 'url(/images/main/ticketsImg/texture13.jpg)'
   },
   {
     id: 10,
-    day: '4/21',
-    mainEventFirstFighter: 'Kendrick',
+    day: '4/1',
+    mainEventFirstFighter: 'Kendrick Lamar',
     mainEventSecondFighter: 'Lamar',
     firstFightFighter_1: 'Jorge Masvidal',
     firstFightFighter_2: 'John Cena',
@@ -147,11 +147,11 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'RAW',
     brandColor: 'rgba(156, 0, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture14.jpg)'
+    background: 'url(/images/main/ticketsImg/texture14.jpg)'
   },
   {
     id: 11,
-    day: '4/21',
+    day: '12/2',
     mainEventFirstFighter: 'Brock',
     mainEventSecondFighter: 'Lesnar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -162,7 +162,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'NITRO',
     brandColor: 'rgba(0, 8, 156, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture15.jpg)'
+    background: 'url(/images/main/ticketsImg/texture15.jpg)'
   },
   {
     id: 12,
@@ -177,11 +177,11 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'ECW',
     brandColor: 'rgba(57, 15, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture2.png)'
+    background: 'url(/images/main/ticketsImg/texture2.png)'
   },
   {
     id: 13,
-    day: '4/21',
+    day: '5/30',
     mainEventFirstFighter: 'Brock',
     mainEventSecondFighter: 'Lesnar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -192,11 +192,11 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'AEW',
     brandColor: 'rgba(126, 76, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture7.png)'
+    background: 'url(/images/main/ticketsImg/texture7.png)'
   },
   {
     id: 14,
-    day: '4/21',
+    day: '5/29',
     mainEventFirstFighter: 'Kendrick',
     mainEventSecondFighter: 'Lamar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -207,11 +207,11 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'RAW',
     brandColor: 'rgba(156, 0, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture5.png)'
+    background: 'url(/images/main/ticketsImg/texture5.png)'
   },
   {
     id: 15,
-    day: '4/21',
+    day: '8/21',
     mainEventFirstFighter: 'Brock',
     mainEventSecondFighter: 'Lesnar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -222,7 +222,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'NITRO',
     brandColor: 'rgba(0, 8, 156, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture9.png)'
+    background: 'url(/images/main/ticketsImg/texture9.png)'
   },
   {
     id: 16,
@@ -237,11 +237,11 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'ECW',
     brandColor: 'rgba(57, 15, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture4.png)'
+    background: 'url(/images/main/ticketsImg/texture4.png)'
   },
   {
     id: 18,
-    day: '4/21',
+    day: '1/31',
     mainEventFirstFighter: 'Brock',
     mainEventSecondFighter: 'Lesnar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -252,11 +252,11 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'AEW',
     brandColor: 'rgba(126, 76, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture11.png)'
+    background: 'url(/images/main/ticketsImg/texture11.png)'
   },
   {
     id: 19,
-    day: '4/21',
+    day: '12/1',
     mainEventFirstFighter: 'Kendrick',
     mainEventSecondFighter: 'Lamar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -267,11 +267,11 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'RAW',
     brandColor: 'rgba(156, 0, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture7.png)'
+    background: 'url(/images/main/ticketsImg/texture7.png)'
   },
   {
     id: 20,
-    day: '4/21',
+    day: '5/10',
     mainEventFirstFighter: 'Brock',
     mainEventSecondFighter: 'Lesnar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -282,7 +282,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'NITRO',
     brandColor: 'rgba(0, 8, 156, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture1.png)'
+    background: 'url(/images/main/ticketsImg/texture1.png)'
   },
   {
     id: 21,
@@ -297,11 +297,11 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'ECW',
     brandColor: 'rgba(57, 15, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture9.png)'
+    background: 'url(/images/main/ticketsImg/texture9.png)'
   },
   {
     id: 22,
-    day: '4/21',
+    day: '5/10',
     mainEventFirstFighter: 'Brock',
     mainEventSecondFighter: 'Lesnar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -312,11 +312,11 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'AEW',
     brandColor: 'rgba(126, 76, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture4.png)'
+    background: 'url(/images/main/ticketsImg/texture4.png)'
   },
   {
     id: 23,
-    day: '4/21',
+    day: '7/7',
     mainEventFirstFighter: 'Kendrick',
     mainEventSecondFighter: 'Lamar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -327,11 +327,11 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'RAW',
     brandColor: 'rgba(156, 0, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture3.png)'
+    background: 'url(/images/main/ticketsImg/texture3.png)'
   },
   {
     id: 24,
-    day: '4/21',
+    day: '2/12',
     mainEventFirstFighter: 'Brock',
     mainEventSecondFighter: 'Lesnar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -342,11 +342,11 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'NITRO',
     brandColor: 'rgba(0, 8, 156, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture12.png)'
+    background: 'url(/images/main/ticketsImg/texture12.png)'
   },
   {
     id: 25,
-    day: '10/21',
+    day: '9/12',
     mainEventFirstFighter: 'Brock',
     mainEventSecondFighter: 'Lesnar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -357,7 +357,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'ECW',
     brandColor: 'rgba(57, 15, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture.png)'
+    background: 'url(/images/main/ticketsImg/texture.png)'
   },
   {
     id: 26,
@@ -372,11 +372,11 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'AEW',
     brandColor: 'rgba(126, 76, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture2.png)'
+    background: 'url(/images/main/ticketsImg/texture2.png)'
   },
   {
     id: 27,
-    day: '4/21',
+    day: '10/31',
     mainEventFirstFighter: 'Kendrick',
     mainEventSecondFighter: 'Lamar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -387,11 +387,11 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'RAW',
     brandColor: 'rgba(156, 0, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture8.png)'
+    background: 'url(/images/main/ticketsImg/texture8.png)'
   },
   {
     id: 28,
-    day: '4/21',
+    day: '5/12',
     mainEventFirstFighter: 'Brock',
     mainEventSecondFighter: 'Lesnar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -402,7 +402,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'NITRO',
     brandColor: 'rgba(0, 8, 156, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture5.png)'
+    background: 'url(/images/main/ticketsImg/texture5.png)'
   },
   {
     id: 29,
@@ -417,7 +417,7 @@ const TicketsData = [
     thirdFightFighter_2: 'Rey Misterio',
     brand: 'ECW',
     brandColor: 'rgba(57, 15, 0, 0.727)',
-    background: 'url(../../../../public/images/main/ticketsImg/texture0.png)'
+    background: 'url(/images/main/ticketsImg/texture0.png)'
   },
 ]
 

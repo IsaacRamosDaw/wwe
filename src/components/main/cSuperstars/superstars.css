@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   gap: 60px;
+  padding-bottom: 10vh;
 }
 
 .wrestler-info-content {
@@ -63,7 +64,7 @@
   .wrestler-details-h{
     background-color: rgb(190, 190, 190);
     border: 2px solid black;
-    width: 60%;
+    width: 80%;
 
 
     .details-top{
@@ -104,6 +105,10 @@
 
 .wrestler-details-text{
   padding: 10px;
+
+  p{
+    margin-bottom: 5vh;
+  }
 }
 
 .login-with{
@@ -121,6 +126,10 @@
 
   .wrestler-info-content {
     width: 550px;
+  }
+
+  .wrestler-details-h{
+    width: 300px;
   }
 
 }

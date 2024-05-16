@@ -7,7 +7,7 @@ import MenuHeader from './desplegableMenu/MenuHeader'
 
 function Header({T1,T2,T3}){
   const [menu, setMenu] = useState(false);
-
+  
 
   return (
     <>
@@ -37,11 +37,10 @@ function Header({T1,T2,T3}){
           </a>
             <div className='separator'> </div>
             <ul>
-              <li className='rss'><a className='header-icons' href="/account"><FontAwesomeIcon icon={faUser}/></a><a href="../../../public/rss/rss.xml"><FontAwesomeIcon icon={faRss}/></a></li>
+              <li className='rss'><a className='header-icons' href="/account"><FontAwesomeIcon icon={faUser}/></a><a href="/rss/rss.xml"><FontAwesomeIcon icon={faRss}/></a></li>
             </ul>
         </div>
       </header>
-      {/* <UnderHeader title="Latest Matchest" numContainers={6}/> */}
     </>
   )
 }

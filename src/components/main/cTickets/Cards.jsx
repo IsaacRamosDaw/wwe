@@ -37,22 +37,22 @@ function Card() {
           <div class="t-card-new-container">
             <div class="t-card-show">
               <div className="t-card-show-fights">
-                <h4>Fights</h4>
+                <h4 id="fights">Fights</h4>
                 <ul>
                   <li>
-                    <p>{ticket.firstFightFighter_1}</p>
+                    <p id="text">{ticket.firstFightFighter_1}</p>
                     <span> VS </span>
-                    <p>{ticket.firstFightFighter_2}</p>
+                    <p id="text">{ticket.firstFightFighter_2}</p>
                   </li>
                   <li>
-                    <p>{ticket.secondFightFighter_1}</p>
+                    <p id="text">{ticket.secondFightFighter_1}</p>
                     <span> VS </span>
-                    <p>{ticket.secondFightFighter_2}</p>
+                    <p id="text">{ticket.secondFightFighter_2}</p>
                   </li>
                   <li>
-                    <p>{ticket.thirdFightFighter_1}</p>
+                    <p id="text">{ticket.thirdFightFighter_1}</p>
                     <span> VS </span>
-                    <p>{ticket.thirdFightFighter_2}</p>
+                    <p id="text">{ticket.thirdFightFighter_2}</p>
                   </li>
                 </ul>
               </div>

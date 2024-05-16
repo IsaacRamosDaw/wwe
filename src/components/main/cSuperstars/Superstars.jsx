@@ -41,19 +41,10 @@ function Superstars() {
 
           <div className="wrestler-details-text">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-              laudantium, ducimus inventore cupiditate 
-              laudantium, ducimus inventore cupiditate 
-              laudantium, ducimus inventore cupiditate 
-              laudantium, ducimus inventore cupiditate 
-              laudantium, ducimus inventore cupiditate 
-              quibusdam error, maiores ex eveniet libero perspiciatis et,.
+              {superStar.text}
             </p>
             <small>
-              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
-              laboriosam numquam!"
-              laboriosam numquam!"
-              laboriosam numquam!"
+              {superStar.quote}
             </small>
           </div>
         </div>

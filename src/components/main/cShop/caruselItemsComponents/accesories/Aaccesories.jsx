@@ -1,9 +1,9 @@
 import React from 'react'
 import Carousel from "react-multi-carousel";
+import AccesoriesData from '../../../../../../public/data/shopData/accesoriesData';
 import "react-multi-carousel/lib/styles.css";
-import ClothesShopData from '../../../../../../public/data/shopData/clothesData';
 
-function Clothes() {
+function Aaccesories() {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -22,25 +22,22 @@ function Clothes() {
       items: 1,
     },
   }
-
+  
   return (
-    <div className="carousel-item-clothes">
-      <h4>WWE CLOTHES</h4>
+    <div id='accesories' className="carousel-item-clothes">
+      <h4>WWE ACCESORIES</h4>
       <Carousel showDots={false} responsive={responsive}>
-      {ClothesShopData.map(clothes => {
+      {AccesoriesData.map(accesorie => {
         return(
-          <div key={clothes.id} className="carusel-item-clothes">
+          <div key={accesorie.id} className="carusel-item-clothes">
             <a href="/shop">
               <div>
-                <img
-                  src="../../../../../../public/images/main/landing/HulkHogan.jpg"
-                  alt=""
-                />
-                <p>{clothes.nameClothes}</p>
+                <img src={accesorie.img} alt="" />
+                <p>{accesorie.name}</p>
               </div>
             </a>
             <a href="/shop">
-              {clothes.price}
+              {accesorie.price}
             </a>
           </div>
         )
@@ -50,4 +47,4 @@ function Clothes() {
   )
 }
 
-export default Clothes
+export default Aaccesories

@@ -1,7 +1,7 @@
 import React from 'react'
 import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
 import ItemsShopData from '../../../../../../public/data/shopData/itemsData';
+import "react-multi-carousel/lib/styles.css";
 
 function Items() {
   const responsive = {
@@ -24,8 +24,8 @@ function Items() {
   }
 
   return (
-    <div className="carousel-item-items">
-      <h4>Collection</h4>
+    <div id='items' className="carousel-item-items">
+      <h4>WWE Items</h4>
       <Carousel showDots={false} responsive={responsive}>
       {ItemsShopData.map(item => {
         return(
@@ -33,10 +33,10 @@ function Items() {
             <a href="/shop">
               <div>
                 <img
-                  src="../../../../../../public/images/main/landing/HulkHogan.jpg"
+                  src={item.img}
                   alt=""
                 />
-                <p>{item.nameItems}</p>
+                <p>{item.name}</p>
               </div>
             </a>
             <a className="va" href="/shop">

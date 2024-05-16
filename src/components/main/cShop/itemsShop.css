@@ -1,6 +1,7 @@
 main.shop{
   display: flex;
   justify-content: space-between;
+  z-index: 100;
 }
 
 nav.shop-nav{
@@ -8,8 +9,8 @@ nav.shop-nav{
   flex-direction: column;
   top: 25vh;
   position: fixed;
-  font-size: 3em;
-  letter-spacing: .37em;
+  font-size: 2em;
+  letter-spacing: .09em;
   gap: 10px;
 
   
@@ -60,8 +61,9 @@ section.shop-carusel{
 }
 
 /* container */
-.carusel-item-belts, .carusel-item-clothes, .carusel-item-items{
+.carusel-item-belts, .carusel-item-clothes, .carusel-item-items, .carousel-item-hats, .carousel-item-shirt{
   margin: 0 .2vw;
+  z-index: 1;
 
   a div{
     display: flex;
@@ -87,6 +89,8 @@ section.shop-carusel{
       color: black;
       display: flex;
       flex-direction: column;
+      font-family: var(--letra2);
+      font-weight: bolder;
 
       span{
         border-top: 2.5px solid rgb(246, 255, 0);

@@ -121,7 +121,7 @@ const TicketsData = [
   },
   {
     id: 9,
-    day: '4/21',
+    day: '9/29',
     mainEventFirstFighter: 'Paul Heyman',
     mainEventSecondFighter: 'Brock',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -136,7 +136,7 @@ const TicketsData = [
   },
   {
     id: 10,
-    day: '4/21',
+    day: '4/1',
     mainEventFirstFighter: 'Kendrick Lamar',
     mainEventSecondFighter: 'Lamar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -151,7 +151,7 @@ const TicketsData = [
   },
   {
     id: 11,
-    day: '4/21',
+    day: '12/2',
     mainEventFirstFighter: 'Brock',
     mainEventSecondFighter: 'Lesnar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -181,7 +181,7 @@ const TicketsData = [
   },
   {
     id: 13,
-    day: '4/21',
+    day: '5/30',
     mainEventFirstFighter: 'Brock',
     mainEventSecondFighter: 'Lesnar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -196,7 +196,7 @@ const TicketsData = [
   },
   {
     id: 14,
-    day: '4/21',
+    day: '5/29',
     mainEventFirstFighter: 'Kendrick',
     mainEventSecondFighter: 'Lamar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -211,7 +211,7 @@ const TicketsData = [
   },
   {
     id: 15,
-    day: '4/21',
+    day: '8/21',
     mainEventFirstFighter: 'Brock',
     mainEventSecondFighter: 'Lesnar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -241,7 +241,7 @@ const TicketsData = [
   },
   {
     id: 18,
-    day: '4/21',
+    day: '1/31',
     mainEventFirstFighter: 'Brock',
     mainEventSecondFighter: 'Lesnar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -256,7 +256,7 @@ const TicketsData = [
   },
   {
     id: 19,
-    day: '4/21',
+    day: '12/1',
     mainEventFirstFighter: 'Kendrick',
     mainEventSecondFighter: 'Lamar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -271,7 +271,7 @@ const TicketsData = [
   },
   {
     id: 20,
-    day: '4/21',
+    day: '5/10',
     mainEventFirstFighter: 'Brock',
     mainEventSecondFighter: 'Lesnar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -301,7 +301,7 @@ const TicketsData = [
   },
   {
     id: 22,
-    day: '4/21',
+    day: '5/10',
     mainEventFirstFighter: 'Brock',
     mainEventSecondFighter: 'Lesnar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -316,7 +316,7 @@ const TicketsData = [
   },
   {
     id: 23,
-    day: '4/21',
+    day: '7/7',
     mainEventFirstFighter: 'Kendrick',
     mainEventSecondFighter: 'Lamar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -331,7 +331,7 @@ const TicketsData = [
   },
   {
     id: 24,
-    day: '4/21',
+    day: '2/12',
     mainEventFirstFighter: 'Brock',
     mainEventSecondFighter: 'Lesnar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -346,7 +346,7 @@ const TicketsData = [
   },
   {
     id: 25,
-    day: '10/21',
+    day: '9/12',
     mainEventFirstFighter: 'Brock',
     mainEventSecondFighter: 'Lesnar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -376,7 +376,7 @@ const TicketsData = [
   },
   {
     id: 27,
-    day: '4/21',
+    day: '10/31',
     mainEventFirstFighter: 'Kendrick',
     mainEventSecondFighter: 'Lamar',
     firstFightFighter_1: 'Jorge Masvidal',
@@ -391,7 +391,7 @@ const TicketsData = [
   },
   {
     id: 28,
-    day: '4/21',
+    day: '5/12',
     mainEventFirstFighter: 'Brock',
     mainEventSecondFighter: 'Lesnar',
     firstFightFighter_1: 'Jorge Masvidal',

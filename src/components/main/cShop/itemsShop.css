@@ -89,6 +89,8 @@ section.shop-carusel{
       color: black;
       display: flex;
       flex-direction: column;
+      font-family: var(--letra2);
+      font-weight: bolder;
 
       span{
         border-top: 2.5px solid rgb(246, 255, 0);

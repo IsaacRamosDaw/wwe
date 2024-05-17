@@ -108,7 +108,7 @@ details[open] summary ~ *{
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(../../../../public/images/main/ticketsImg/texture12.png);
+  background-image: url(/images/main/ticketsImg/texture12.png);
   background-position: bottom;
   background-size: cover;
   border: 2px solid rgba(0, 0, 97, 0.379);

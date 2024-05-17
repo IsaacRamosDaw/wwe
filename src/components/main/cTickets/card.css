@@ -120,17 +120,14 @@ details[open] summary ~ *{
     margin: 0;
   }
 
-
-
   /* lado izquierdo */
-
   .t-card-show-fights{
     padding: 3px;
     display: flex;
     flex-direction: column;
     width: 55vw;
     font-family: var(--letra2);
-
+    
     ul{
         padding: 1vh 0;
         margin: 0;

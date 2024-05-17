@@ -15,7 +15,7 @@ function Card() {
         <details>
           <summary>
             <div style={{backgroundImage: `${ticket.background}`}} className="t-card-info">
-
+              
               <div className="t-card-info-date">
                 <span className="t-card-info-date-text">
                   {ticket.day}

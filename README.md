@@ -35,7 +35,7 @@ Telling stories and details about the wrestlers of the WWE company.
   A multi-carousel of images in the Shop component
   
 - Hosting
-    https://wwereact-bab2d.web.app/
+    [WWE WEBSITE](https://wwereact-bab2d.web.app)
 
 - RSS[Problem]
     ![image](https://github.com/IsaacRamosDaw/wwe/assets/164216296/d1f6b6f2-338c-4344-9f6a-7dce781fd139)
